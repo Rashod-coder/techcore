@@ -14,6 +14,9 @@ function Navbar() {
           <Link to="/about">About</Link> {/* Corrected path */}
         </li>
         <li>
+          <Link to="/Contact">Contact</Link>
+        </li>
+        <li>
           <a href="https://www.gofundme.com/f/schools-in-need-of-computers" target="_blank" rel="noopener noreferrer">Donate</a>
         </li>
       </ul>
