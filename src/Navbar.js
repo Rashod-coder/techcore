@@ -13,6 +13,9 @@ function Navbar() {
         <li>
           <Link to="/blue">About</Link>
         </li>
+        <li>
+          <a href="https://www.gofundme.com/f/schools-in-need-of-computers" target="_blank" rel="noopener noreferrer">Donate</a>
+        </li>
       </ul>
     </nav>
   );
