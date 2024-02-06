@@ -1,10 +1,12 @@
 import React from 'react';
-import './Footer.css'; // Assuming you'll style your footer
+import './Footer.css';
 
 function Footer() {
   return (
     <footer className="footer">
-      <p>Copyright © Techcore 2024. All rights reserved.</p>
+      <p>Copyright © Techcore 2024. Pleasanton CA</p>
+      
+
     </footer>
   );
 }
