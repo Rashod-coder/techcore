@@ -1,10 +1,9 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import Navbar from './Navbar';
 import Home from './Home';
-import Footer from './Footer'; // Import the Footer component
-
+import AboutPage from './AboutPage'; // Import the AboutPage component
+import Footer from './Footer';
 
 function App() {
   return (
@@ -14,9 +13,10 @@ function App() {
         <div className="content">
           <Routes>
             <Route path="/" element={<Home />} />
+            <Route path="/about" element={<AboutPage />} /> 
           </Routes>
         </div>
-        <Footer /> {/* Include the Footer component */}
+        <Footer />
       </div>
     </Router>
   );

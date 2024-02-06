@@ -1,21 +1,21 @@
 /* Navbar.css */
 nav {
-    background-color: black;
-    color: white;
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
   }
   
   nav ul {
     list-style-type: none;
-    padding: 0;
+    padding: 9;
   }
   
   nav ul li {
     display: inline;
-    margin-right: 20px;
+    margin-right: 40px;
   }
   
   nav ul li a {
-    color: white;
+    color: rgb(203, 241, 255);
     text-decoration: none;
   }
   
