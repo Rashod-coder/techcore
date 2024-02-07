@@ -22,8 +22,8 @@ function AboutPage() {
       }}>
         <h1>TechCore - Providing Access to Technology for Schools</h1>
         <p>
-          Donating Computers to Schools
-          <br /> 
+          Founded by Rishit Gupta a high school student at Amador Valley High School.
+          <br/>
           TechCore is a company that strives to provide access to technology for schools by donating used and new computers.
           <br /> 
           We believe that every student should have the opportunity to learn and grow with the help of modern technology. 
