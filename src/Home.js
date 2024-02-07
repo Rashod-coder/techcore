@@ -21,7 +21,7 @@ function HomePage() {
           <h1 style={{ fontSize: '120px', marginRight: '20px', color: '#173753' }}>TechCore </h1> {/* Adding color to TechCore */}
           <FaDesktop style={{ fontSize: '80px' }} /> 
         </div>
-        <p style={{ fontSize: '60px' }}>Helping schools bridge the digital divide through donating computers</p>
+        <p style={{ fontSize: '60px' }}>Helping schools bridge the digital divide through donating computers.</p>
         <br />
         <br />
         <br />
