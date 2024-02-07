@@ -1,21 +1,26 @@
 /* Navbar.css */
 nav {
-    background-color: rgb(0, 0, 0);
-    color: rgb(255, 255, 255);
-  }
-  
-  nav ul {
-    list-style-type: none;
-    padding: 9;
-  }
-  
-  nav ul li {
-    display: inline;
-    margin-right: 40px;
-  }
-  
-  nav ul li a {
-    color: rgb(203, 241, 255);
-    text-decoration: none;
-  }
-  
+  background-color: rgb(0, 0, 0);
+  color: rgb(0, 0, 0);
+  padding: 20px; /* Adjust padding to increase navbar height */
+  height: auto; /* Set height to auto to accommodate content */
+  margin: 10;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0; /* Reset padding */
+  margin: 0; /* Add this line to reset margin */
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 20px;
+}
+
+nav ul li a {
+  color: rgb(203, 241, 255);
+  text-decoration: none;
+}
+
+
