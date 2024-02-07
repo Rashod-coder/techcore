@@ -1,7 +1,7 @@
 // Navbar.js
 import React from 'react';
 import { Link } from 'react-router-dom';
-import './Navbar.css'; // Make sure this path is correct
+import './Navbar.css'; 
 
 function Navbar() {
   return (
@@ -11,7 +11,7 @@ function Navbar() {
           <Link to="/">Home</Link>
         </li>
         <li>
-          <Link to="/about">About</Link> {/* Corrected path */}
+          <Link to="/about">About</Link> 
         </li>
         <li>
           <Link to="/Contact">Contact</Link>

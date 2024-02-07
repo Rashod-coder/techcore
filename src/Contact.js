@@ -1,6 +1,6 @@
 import React from 'react';
 import pic01 from './pic01.jpg';
-import { FaInstagram, FaEnvelope } from 'react-icons/fa'; // Import Instagram and Envelope icons from react-icons
+import { FaInstagram, FaEnvelope } from 'react-icons/fa'; 
 
 function ContactPage() {
   return (
@@ -12,15 +12,15 @@ function ContactPage() {
       </div>
 
       <div style={{ backgroundColor: 'black', padding: '20px', borderRadius: '10px', marginBottom: '20px' }}>
-        {/* Instagram link with icon */}
+    
         <a href="https://www.instagram.com/projectechcore/" target="_blank" rel="noopener noreferrer" style={{ color: 'white' }}>
-          <FaInstagram style={{ fontSize: '48px' }} /> {/* Instagram icon */}
+          <FaInstagram style={{ fontSize: '48px' }} /> 
         </a>
       </div>
 
       <div style={{ backgroundColor: 'black', padding: '20px', borderRadius: '10px', marginBottom: '20px', display: 'flex', alignItems: 'center' }}>
-        <FaEnvelope style={{ fontSize: '48px', color: 'white', marginRight: '10px' }} /> {/* Email icon */}
-        <a href="mailto:example@example.com" style={{ color: 'white' }}>project.techcore@gmail.com</a> {/* Email section */}
+        <FaEnvelope style={{ fontSize: '48px', color: 'white', marginRight: '10px' }} /> 
+        <a href="mailto:example@example.com" style={{ color: 'white' }}>project.techcore@gmail.com</a>
       </div>
 
       <div style={{ backgroundColor: 'black', padding: '20px', borderRadius: '10px', marginBottom: '20px' }}>

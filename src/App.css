@@ -1,24 +1,37 @@
-/* App.css */
-.navigation-box {
-  position: fixed;
-  top: 40px;
-  right: 40px;
-  background-color: black;
-  padding: 10px;
-  border-radius: 5px;
+/* App.css - Basic styles */
+
+/* Ensure the body takes full height and width */
+html, body {
+  height: 100%;
+  margin: 0;
 }
 
-.navigation-box ul {
-  list-style-type: none;
-  padding: 0;
-  display: flex; /* Display flex to arrange items horizontally */
+.App {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
 }
 
-.navigation-box li {
-  margin-right: 20px; /* Add margin between links */
+.content {
+  flex: 1;
+  padding: 20px;
 }
 
-.navigation-box a {
-  color: rgb(81, 20, 20);
-  text-decoration: none;
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .content {
+    padding: 10px; /* Reduce padding on smaller screens */
+  }
+
+  /* Adjust text box styles */
+  input[type="text"], textarea {
+    width: 100%; /* Make text boxes full width */
+    box-sizing: border-box; /* Include padding and border in the element's total width and height */
+    margin-bottom: 20px; /* Add some space below each text box */
+  }
+
+  /* You can also adjust font sizes, margins, and other properties as needed */
+  body {
+    font-size: 14px;
+  }
 }
