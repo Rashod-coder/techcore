@@ -3,7 +3,7 @@ import pic01 from './pic01.jpg';
 
 function HomePage() {
   return (
-    <div style={{ backgroundImage: `url(${pic01})`, backgroundSize: 'cover', height: '500vh', padding: '20px' }}>
+    <div style={{ backgroundImage: `url(${pic01})`, backgroundSize: 'cover', height: '175vh', padding: '20px' }}>
         <br />
         <br />
         <h1 style={{ fontSize: '100px' }}>TechCore:</h1>
