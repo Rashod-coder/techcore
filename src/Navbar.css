@@ -1,10 +1,36 @@
 /* Navbar.css */
+body {
+  position: relative; /* Make the body element a reference for absolute positioning */
+}
+
+body::before {
+  content: ''; /* Create a pseudo-element */
+  position: absolute; /* Position the pseudo-element */
+  top: 0; /* Position it at the top of the body */
+  left: 0; /* Align it to the left */
+  width: 100%; /* Cover the entire width of the body */
+  height: 60px; /* Adjust the height as needed */
+  background-color: black; /* Set the background color */
+  z-index: 999; /* Ensure it's behind the navbar */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Add shadow effect */
+}
+
 nav {
+  position: fixed; /* Fix the navbar at the top of the page */
+  top: 0;
+  left: 0;
+  width: 100%; /* Cover the entire width of the page */
   background-color: rgb(0, 0, 0);
   color: rgb(0, 0, 0);
   padding: 20px; /* Adjust padding to increase navbar height */
-  height: auto; /* Set height to auto to accommodate content */
-  margin: 10;
+  z-index: 1000; /* Ensure navbar stays on top of other content */
+  transition: background-color 0.3s ease, box-shadow 0.3s ease; /* Add transition effect for background color and box shadow */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Add shadow effect */
+}
+
+nav:hover {
+  background-color: rgba(69, 73, 87, 0.562); /* Change background color on hover */
+  
 }
 
 nav ul {
@@ -22,5 +48,3 @@ nav ul li a {
   color: rgb(203, 241, 255);
   text-decoration: none;
 }
-
-
