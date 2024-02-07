@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import { BrowserRouter as Router, Route, Routes, Navigate } from 'react-router-dom';
 import Navbar from './Navbar';
 import Home from './Home';
 import AboutPage from './AboutPage'; // Import the AboutPage component
@@ -15,7 +15,9 @@ function App() {
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/about" element={<AboutPage />} /> 
-            <Route path ="/Contact" element = {<ContactPage />} />
+            <Route path="/contact" element={<ContactPage />} />
+            {/* Wildcard route for handling invalid routes */}
+            <Route path="*" element={<Navigate to="/" replace />} />
           </Routes>
         </div>
         <Footer />

@@ -1,15 +1,15 @@
 import React, { useEffect } from 'react';
 import pic01 from './pic01.jpg';
 import { FaLaptop, FaHandsHelping, FaDesktop, FaUserFriends } from 'react-icons/fa'; // Import relevant icons
-import AOS from 'aos'; // Import AOS library
-import 'aos/dist/aos.css'; // Import AOS styles
+import AOS from 'aos'; 
+import 'aos/dist/aos.css'; 
 
 function HomePage() {
   useEffect(() => {
-    AOS.init({ // Initialize AOS
-      duration: 1000, // Set animation duration
-      once: true, // Only animate once
-      easing: 'ease-in-out', // Set animation easing
+    AOS.init({ 
+      duration: 1000,
+      once: true, 
+      easing: 'ease-in-out', 
     });
   }, []);
 
@@ -19,7 +19,7 @@ function HomePage() {
         <br />
         <div style={{ display: 'flex', alignItems: 'center' }}>
           <h1 style={{ fontSize: '120px', marginRight: '20px', color: '#173753' }}>TechCore </h1> {/* Adding color to TechCore */}
-          <FaDesktop style={{ fontSize: '80px' }} /> {/* Computer icon */}
+          <FaDesktop style={{ fontSize: '80px' }} /> 
         </div>
         <p style={{ fontSize: '60px' }}>Helping schools bridge the digital divide through donating computers</p>
         <br />
