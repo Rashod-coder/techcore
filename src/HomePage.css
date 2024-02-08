@@ -1,0 +1,95 @@
+.home-page {
+    background-size: cover;
+    min-height: 150vh;
+  }
+  
+  @media (max-width: 768px) { /* Adjust the max-width as needed for your target mobile devices */
+    .home-page {
+      min-height: 200vh; /* Adjust the min-height for mobile devices */
+    }
+  }
+  
+  
+  .title-section {
+    text-align: center;
+    padding: 20px;
+    color: #173753;
+  }
+  
+  .title {
+    font-size: 3rem;
+    margin-bottom: 10px;
+  }
+  
+  .icon {
+    font-size: 2rem;
+  }
+  
+  .subtitle {
+    font-size: 1.5rem;
+  }
+  
+  .solution-section {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin: 0 auto;
+  }
+  
+  .solution-card {
+    background-color: black;
+    padding: 20px;
+    border: 2px solid black;
+    border-radius: 20px;
+    width: 45%; /* Adjusted width to fit two cards on mobile */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .solution-icon {
+    font-size: 2rem;
+    color: white;
+  }
+  
+  .solution-title {
+    font-weight: bold;
+    font-size: 1.5rem;
+    color: white;
+    margin-top: 20px;
+  }
+  
+  .solution-description {
+    font-size: 1rem;
+    color: white;
+  }
+  
+  .contribution-section {
+    background-color: black;
+    padding: 20px;
+    border: 2px solid black;
+    border-radius: 20px;
+    width: 80%;
+    margin: 20px auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .contribution-icon {
+    font-size: 2rem;
+    color: white;
+  }
+  
+  .contribution-title {
+    font-weight: bold;
+    font-size: 1.5rem;
+    color: white;
+    margin-top: 20px;
+  }
+  
+  .contribution-description {
+    font-size: 1rem;
+    color: white;
+  }
+  

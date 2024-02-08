@@ -6,20 +6,20 @@ function Updates() {
     backgroundImage: `url(${pic01})`,
     backgroundSize: 'cover',
     backgroundPosition: 'center',
-    minHeight: '100vh', // Set minimum height to fill the viewport
+    minHeight: '100vh', 
     padding: '30px',
   };
 
   const horizontalLineStyle = {
-    width: '100%', // Set the width of the horizontal line to 100%
-    margin: '20px 0', // Adjust margin for spacing
-    borderTop: '2px solid black', // Increase the thickness and style of the line
+    width: '100%', 
+    margin: '20px 0', 
+    borderTop: '2px solid black',
   };
 
   return (
     <div style={backgroundImageStyle}>
       <div style={{ padding: '20px' }}>
-        {/* Add your content here */}
+        
       </div>
       <br />
       <br />
@@ -39,7 +39,7 @@ function Updates() {
       <br />
       <br />
       <br />
-      <hr style={horizontalLineStyle} /> {/* Horizontal line */}
+      <hr style={horizontalLineStyle} /> 
     </div>
   );
 }
