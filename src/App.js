@@ -13,7 +13,6 @@ function App() {
   return (
     <Router>
       <div className="App">
-        <Analytics />
         <Navbar />
         <div className="content">
           <Routes>
@@ -24,6 +23,7 @@ function App() {
             <Route path="/classes" element={<Classes />} /> 
             <Route path="*" element={<Navigate to="/" replace />} />
           </Routes>
+          
         </div>
         <Footer />
       </div>
