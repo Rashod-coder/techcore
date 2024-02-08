@@ -6,6 +6,7 @@ import AboutPage from './AboutPage';
 import Footer from './Footer';
 import ContactPage from './Contact';
 import Updates from './updates';
+import Classes from './classes'; 
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
             <Route path="/about" element={<AboutPage />} /> 
             <Route path="/contact" element={<ContactPage />} />
             <Route path="/updates" element={<Updates />} />
+            <Route path="/classes" element={<Classes />} /> 
             <Route path="*" element={<Navigate to="/" replace />} />
           </Routes>
         </div>
