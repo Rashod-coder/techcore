@@ -7,11 +7,13 @@ import Footer from './Footer';
 import ContactPage from './Contact';
 import Updates from './updates';
 import Classes from './classes'; 
+import { Analytics } from '@vercel/analytics/react';
 
 function App() {
   return (
     <Router>
       <div className="App">
+        <Analytics />
         <Navbar />
         <div className="content">
           <Routes>
