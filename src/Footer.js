@@ -4,9 +4,7 @@ import './Footer.css';
 function Footer() {
   return (
     <footer className="footer">
-      <p>Techcore Pleasanton CA</p>
-      
-
+      <p>&copy; Techcore 2024</p>
     </footer>
   );
 }
