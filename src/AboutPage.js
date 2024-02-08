@@ -32,6 +32,7 @@ function AboutPage() {
         </p>
       </div>
     </div>
+    
   );
 }
 

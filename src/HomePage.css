@@ -41,7 +41,7 @@
     padding: 20px;
     border: 2px solid black;
     border-radius: 20px;
-    width: 45%; /* Adjusted width to fit two cards on mobile */
+    width: 45%; 
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -94,11 +94,11 @@
   }
   @media (max-width: 768px) {
     .solution-section {
-      flex-direction: column; /* Change flex-direction to column for mobile devices */
+      flex-direction: column; 
     }
   
     .solution-card {
-      margin-bottom: 20px; /* Add margin between the textboxes */
+      margin-bottom: 20px; 
     }
   }
   

@@ -3,7 +3,7 @@ import pic01 from './pic01.jpg';
 import { FaLaptop, FaHandsHelping, FaDesktop, FaUserFriends } from 'react-icons/fa';
 import AOS from 'aos'; 
 import 'aos/dist/aos.css'; 
-import './HomePage.css'; // Import the CSS file for additional styles
+import './HomePage.css'; 
 
 function HomePage() {
   useEffect(() => {
@@ -21,20 +21,6 @@ function HomePage() {
           <h1 className="title">TechCore <FaDesktop className="icon" /></h1>
           <p className="subtitle">Helping schools bridge the digital divide.</p>
         </div>
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
         <br />
         <br />
         <br />
