@@ -11,7 +11,7 @@ function Updates() {
   };
 
   const horizontalLineStyle = {
-    width: '10000px', 
+    width: '100', 
     margin: '20px 0', 
     borderTop: '5px solid white', 
   };
