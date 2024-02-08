@@ -3,7 +3,8 @@ import pic01 from './pic01.jpg';
 import { FaLaptop, FaHandsHelping, FaDesktop, FaUserFriends } from 'react-icons/fa';
 import AOS from 'aos'; 
 import 'aos/dist/aos.css'; 
-import './HomePage.css'; 
+import './HomePage.css';
+import { Analytics } from '@vercel/analytics/react';
 
 function HomePage() {
   useEffect(() => {
@@ -54,6 +55,7 @@ function HomePage() {
             <br /> Additionally, we are accepting donations of used laptops to support our cause. If you would like to donate a laptop, send a DM via Instagram or E-mail which can be found in the Contact page.
           </p>
         </div>
+        <Analytics />
     </div>
   );
 }

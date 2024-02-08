@@ -23,7 +23,7 @@ function App() {
             <Route path="/classes" element={<Classes />} /> 
             <Route path="*" element={<Navigate to="/" replace />} />
           </Routes>
-          
+          <Analytics />
         </div>
         <Footer />
       </div>
