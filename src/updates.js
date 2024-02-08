@@ -11,15 +11,15 @@ function Updates() {
   };
 
   const horizontalLineStyle = {
-    width: '100%', 
+    width: '10000px', 
     margin: '20px 0', 
-    borderTop: '2px solid black',
+    borderTop: '5px solid white', 
   };
 
   return (
     <div style={backgroundImageStyle}>
       <div style={{ padding: '20px' }}>
-        
+        <h1>Progess:</h1>
       </div>
       <br />
       <br />

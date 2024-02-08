@@ -1,11 +1,11 @@
 .home-page {
     background-size: cover;
-    min-height: 150vh;
+    min-height: 125vh;
   }
   
-  @media (max-width: 768px) { /* Adjust the max-width as needed for your target mobile devices */
+  @media (max-width: 768px) {
     .home-page {
-      min-height: 210vh; /* Adjust the min-height for mobile devices */
+      min-height: 210vh; 
     }
   }
   

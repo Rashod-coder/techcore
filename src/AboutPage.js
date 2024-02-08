@@ -3,6 +3,8 @@ import pic01 from './pic01.jpg';
 
 function AboutPage() {
   return (
+   <div className='tittle'>
+    <h1>Mission</h1>
     <div style={{
       backgroundImage: `url(${pic01})`,
       backgroundSize: 'cover',
@@ -32,7 +34,7 @@ function AboutPage() {
         </p>
       </div>
     </div>
-    
+    </div> 
   );
 }
 
