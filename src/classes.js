@@ -35,7 +35,7 @@ function Classes() {
 
                 <h1 style={{ color: 'white' }}>Goal: </h1>
                 <p style={{ color: 'white' }}>Our Goal is to educate</p>
-                <p style={{ color: 'white' }}>It provides information about our socials and how to reach out to us.</p>
+                <p style={{ color: 'white' }}></p>
             </div>
             
             <div style={{ 
