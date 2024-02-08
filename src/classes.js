@@ -42,7 +42,9 @@ function Classes() {
                 display: 'flex', 
                 justifyContent: 'space-between', 
                 width: '100%', 
-                marginTop: '200px', 
+                marginTop: '300px',
+                flexDirection: 'column', // Stack items vertically
+                alignItems: 'center', // Center align items horizontally 
                 }}>
                 <div style={{ 
                     backgroundColor: 'black', 
@@ -50,7 +52,8 @@ function Classes() {
                     borderRadius: '10px', 
                     width: '200px',
                     border: '4px solid white', 
-                    boxShadow: '0px 0px 100px rgba(31, 64, 96, 0.6)', 
+                    boxShadow: '0px 0px 100px rgba(31, 64, 96, 0.6)',
+                    marginBottom: '20px' 
                 }}>
                     <h1 style={{ color: 'white' }}>Python</h1>
                     <p style={{ color: 'white' }}></p>
@@ -62,7 +65,8 @@ function Classes() {
                     borderRadius: '10px', 
                     width: '200px',
                     border: '4px solid white', 
-                    boxShadow: '0px 0px 100px rgba(31, 64, 96, 0.6)', 
+                    boxShadow: '0px 0px 100px rgba(31, 64, 96, 0.6)',
+                    marginBottom: '20px'  
                 }}>
                     <h1 style={{ color: 'white' }}>Web Dev.</h1>
                     <p style={{ color: 'white' }}></p>
@@ -74,7 +78,8 @@ function Classes() {
                     borderRadius: '10px', 
                     width: '200px',
                     border: '4px solid white', 
-                    boxShadow: '0px 0px 100px rgba(31, 64, 96, 0.6)', 
+                    boxShadow: '0px 0px 100px rgba(31, 64, 96, 0.6)',
+                    marginBottom: '20px' 
                 }}>
                     <h1 style={{ color: 'white' }}>Business</h1>
                     <p style={{ color: 'white' }}></p>
@@ -86,7 +91,8 @@ function Classes() {
                     borderRadius: '10px', 
                     width: '200px',
                     border: '4px solid white', 
-                    boxShadow: '0px 0px 100px rgba(31, 64, 96, 0.6)', 
+                    boxShadow: '0px 0px 100px rgba(31, 64, 96, 0.6)',
+                    marginBottom: '20px' 
                 }}>
                     <h1 style={{ color: 'white' }}>Graphic Design</h1>
                     <p style={{ color: 'white' }}></p>
