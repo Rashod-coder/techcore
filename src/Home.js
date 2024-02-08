@@ -19,7 +19,7 @@ function HomePage() {
         <div className="title-section">
           <br></br><br></br>
           <h1 className="title">TechCore <FaDesktop className="icon" /></h1>
-          <p className="subtitle">Helping schools bridge the digital divide through donating computers.</p>
+          <p className="subtitle">Helping schools bridge the digital divide.</p>
         </div>
         <br />
         <br />

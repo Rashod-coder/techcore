@@ -5,7 +5,7 @@
   
   @media (max-width: 768px) { /* Adjust the max-width as needed for your target mobile devices */
     .home-page {
-      min-height: 200vh; /* Adjust the min-height for mobile devices */
+      min-height: 210vh; /* Adjust the min-height for mobile devices */
     }
   }
   
@@ -91,5 +91,14 @@
   .contribution-description {
     font-size: 1rem;
     color: white;
+  }
+  @media (max-width: 768px) {
+    .solution-section {
+      flex-direction: column; /* Change flex-direction to column for mobile devices */
+    }
+  
+    .solution-card {
+      margin-bottom: 20px; /* Add margin between the textboxes */
+    }
   }
   
