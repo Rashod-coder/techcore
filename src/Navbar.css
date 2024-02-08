@@ -11,7 +11,7 @@ body::before {
   height: 60px; 
   background-color: black; 
   z-index: 999; 
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); 
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2) ; 
 }
 
 nav {
@@ -44,6 +44,6 @@ nav ul li {
 }
 
 nav ul li a {
-  color: rgb(203, 241, 255);
+  color: rgb(52, 100, 118);
   text-decoration: none;
 }
