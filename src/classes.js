@@ -33,9 +33,9 @@ function Classes() {
                 boxShadow: '0px 0px 100px rgba(31, 64, 96, 0.9)', 
             }}>
 
-                <h1 style={{ color: 'white' }}>Goal: </h1>
-                <p style={{ color: 'white' }}>Our Goal is to educate</p>
-                <p style={{ color: 'white' }}></p>
+                <h1 style={{ color: 'white' }}></h1>
+                <p style={{ color: 'white' }}>These classes are offered to grades 6-8 for no Cost</p>
+                <p style={{ color: 'white' }}>Signs up aren't open yet</p>
             </div>
             
             <div style={{ 
@@ -43,8 +43,8 @@ function Classes() {
                 justifyContent: 'space-between', 
                 width: '100%', 
                 marginTop: '300px',
-                flexDirection: 'column', // Stack items vertically
-                alignItems: 'center', // Center align items horizontally 
+                flexDirection: 'column', 
+                alignItems: 'center', 
                 }}>
                 <div style={{ 
                     backgroundColor: 'black', 
