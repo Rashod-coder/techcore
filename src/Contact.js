@@ -7,7 +7,8 @@ function ContactPage() {
     <div style={{ backgroundImage: `url(${pic01})`, backgroundSize: 'cover', height: '100vh', padding: '20px', display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center' }}>
       <div style={{ backgroundColor: 'black', padding: '20px', borderRadius: '10px', marginBottom: '20px' }}>
         <h1 style={{ color: 'white' }}>Socials/Contacts:</h1>
-        <p style={{ color: 'white' }}>Socials are linked below: </p>
+        <p style={{ color: 'white' }}>Socials are linked below</p>
+        <p style={{ color: 'white' }}>Instagram is the best way to contact. </p>
       </div>
 
       <div style={{ backgroundColor: 'black', padding: '20px', borderRadius: '10px', marginBottom: '20px' }}>
@@ -22,12 +23,7 @@ function ContactPage() {
         <a href="mailto: project.techcore@gmail.com" style={{ color: 'white' }}>project.techcore@gmail.com</a>
       </div>
 
-      <div style={{ backgroundColor: 'black', padding: '20px', borderRadius : '10px', marginBottom: '20px' }}>
-        <a href="https://nextdoor.com/profile/01f3b75-3GX6Xbn9B/?edit=false" target="_blank" style={{ color: 'white' }}>
-          Nextdoor
-        </a>
-        <p style={{ color: 'white' }}>We post weekly updates here </p>
-      </div>
+      
 
 
     </div>
