@@ -4,28 +4,58 @@ import { FaInstagram, FaEnvelope } from 'react-icons/fa';
 
 function ContactPage() {
   return (
-    <div style={{ backgroundImage: `url(${pic01})`, backgroundSize: 'cover', height: '100vh', padding: '20px', display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center' }}>
-      <div style={{ backgroundColor: 'black', padding: '20px', borderRadius: '10px', marginBottom: '20px' }}>
-        <h1 style={{ color: 'white' }}>Socials/Contacts:</h1>
-        <p style={{ color: 'white' }}>Socials are linked below</p>
-        <p style={{ color: 'white' }}>Instagram is the best way to contact. </p>
+    <div style={{
+      backgroundImage: `url(${pic01})`,
+      backgroundSize: 'cover',
+      height: '100vh',
+      display: 'flex',
+      flexDirection: 'column',
+      alignItems: 'center',
+      justifyContent: 'center',
+      padding: '20px',
+    }}>
+      <div style={{
+        backgroundColor: 'rgba(0, 0, 0, 0.7)',
+        padding: '20px',
+        borderRadius: '10px',
+        marginBottom: '20px',
+        textAlign: 'center',
+      }}>
+        <h1 style={{ color: 'white', fontSize: '2rem', marginBottom: '10px' }}>Connect With Us</h1>
+        <p style={{ color: 'white', fontSize: '1rem' }}>Follow us on Instagram or send us an email for inquiries and updates.</p>
       </div>
 
-      <div style={{ backgroundColor: 'black', padding: '20px', borderRadius: '10px', marginBottom: '20px' }}>
-    
-        <a href="https://www.instagram.com/projectechcore/" target="_blank" rel="noopener noreferrer" style={{ color: 'white' }}>
-          <FaInstagram style={{ fontSize: '48px' }} /> 
+      <div style={{
+        backgroundColor: 'rgba(0, 0, 0, 0.7)',
+        padding: '20px',
+        borderRadius: '10px',
+        marginBottom: '20px',
+        display: 'flex',
+        alignItems: 'center',
+        justifyContent: 'center',
+      }}>
+        <a href="https://www.instagram.com/projectechcore/" target="_blank" rel="noopener noreferrer" style={{ color: 'white', marginRight: '20px', textDecoration: 'none' }}>
+          <FaInstagram style={{ fontSize: '2rem' }} />
+          <span style={{ marginLeft: '10px', fontSize: '1rem' }}>Instagram</span>
         </a>
-      </div>
 
-      <div style={{ backgroundColor: 'black', padding: '20px', borderRadius: '10px', marginBottom: '20px', display: 'flex', alignItems: 'center' }}>
-        <FaEnvelope style={{ fontSize: '48px', color: 'white', marginRight: '10px' }} /> 
-        <a href="mailto: project.techcore@gmail.com" style={{ color: 'white' }}>project.techcore@gmail.com</a>
       </div>
+      <div style={{
+        backgroundColor: 'rgba(0, 0, 0, 0.7)',
+        padding: '20px',
+        borderRadius: '10px',
+        marginBottom: '20px',
+        display: 'flex',
+        alignItems: 'center',
+        justifyContent: 'center',
+      }}>
+        <a href="mailto:project.techcore@gmail.com" style={{ color: 'white', textDecoration: 'none' }}>
+          <FaEnvelope style={{ fontSize: '2rem' }} />
+          <span style={{ marginLeft: '10px', fontSize: '1rem' }}>Email</span>
+        </a>
 
+      </div>
       
-
-
     </div>
   );
 }
