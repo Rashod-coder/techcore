@@ -35,7 +35,7 @@ function HomePage() {
             <p className="solution-title">Our Solution:</p>
             <p className="solution-description">
               We understand that every school can't afford computers for every student. <br />
-              That's why we want to donate used laptops to schools so every student has access to technology in the classroom.
+              That's why we want to donate laptops to schools so every student has access to technology in the classroom.
             </p>
           </div>
           <div data-aos="fade-up" className="solution-card">

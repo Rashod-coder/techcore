@@ -22,6 +22,8 @@ function AboutPage() {
         borderRadius: '10px', 
         textAlign: 'center', 
       }}>
+        <br />
+        
         <h1>TechCore - Providing Access to Technology for Schools</h1>
         <p>
           Founded by Rishit Gupta a high school student at Amador Valley High School.
