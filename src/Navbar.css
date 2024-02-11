@@ -1,49 +1,46 @@
-body {
-  position: relative; 
-}
-
-body::before {
-  content: '';
-  position: absolute;
-  top: 0; 
-  left: 0; 
-  width: 100%; 
-  height: 60px; 
-  background-color: black; 
-  z-index: 999; 
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2) ; 
-}
-
 nav {
-  position: fixed; 
+  background-color: #101827;
+  position: fixed;
   top: 0;
   left: 0;
-  width: 100%; 
-  background-color: rgb(0, 0, 0);
-  color: rgb(0, 0, 0);
-  padding: 20px; 
-  z-index: 1000; 
-  transition: background-color 0.3s ease, box-shadow 0.3s ease; 
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); 
+  width: 100%;
+  z-index: 1000; /* Ensure the navbar appears above other content */
 }
 
-nav:hover {
-  background-color: rgba(69, 73, 87, 0.562); 
-  
+/* Additional styles for dropdown menu (if needed) */
+.dropdown {
+  position: relative;
+  display: inline-block;
 }
 
-nav ul {
-  list-style-type: none;
-  padding: 0; 
-  margin: 0;
+.dropbtn {
+  background-color: #101827;
+  color: white;
+  padding: 10px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
 }
 
-nav ul li {
-  display: inline;
-  margin-right: 20px;
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #000000;
+  min-width: 160px;
+  z-index: 1;
 }
 
-nav ul li a {
-  color: rgb(52, 100, 118);
+.dropdown-content a {
+  color: rgb(255, 255, 255);
+  padding: 12px 16px;
   text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {
+  background-color: #162231;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
 }

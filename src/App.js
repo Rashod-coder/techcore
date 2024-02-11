@@ -5,6 +5,7 @@ import Home from './Home';
 import AboutPage from './AboutPage'; 
 import Footer from './Footer';
 import ContactPage from './Contact';
+import Inspiration from './inspiration';
 
 import Classes from './classes'; 
 import { Analytics } from '@vercel/analytics/react';
@@ -21,6 +22,7 @@ import { Analytics } from '@vercel/analytics/react';
             <Route path="/contact" element={<ContactPage />} />
             <Route path="/classes" element={<Classes />} /> 
             <Route path="*" element={<Navigate to="/" replace />} />
+            <Route path = "/inspiration" element={<Inspiration />} />
           </Routes>
         </div>
         <Footer />
