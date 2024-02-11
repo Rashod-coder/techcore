@@ -1,1 +1,1 @@
-WEBSITE FOR TECHCORE
+WEBSITE FOR TECHCORE - a orginization that strives to reduce the digital divide in education. 

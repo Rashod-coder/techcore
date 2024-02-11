@@ -19,7 +19,6 @@ import { Analytics } from '@vercel/analytics/react';
             <Route path="/" element={<Home />} />
             <Route path="/about" element={<AboutPage />} /> 
             <Route path="/contact" element={<ContactPage />} />
-    
             <Route path="/classes" element={<Classes />} /> 
             <Route path="*" element={<Navigate to="/" replace />} />
           </Routes>
