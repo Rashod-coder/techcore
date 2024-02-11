@@ -1,0 +1,30 @@
+/* inspiration.css */
+.inspiration-background {
+    background-size: cover;
+    height: 100vh;
+    color: white;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .inspiration-textbox {
+    background-color: black;
+    padding: 30px;
+    border-radius: 10px;
+    text-align: center;
+    max-width: 600px;
+    width: 100%;
+    font-size: 20px; /* Adjust font size as needed */
+  }
+  
+  /* Adjustments for mobile screens */
+  @media (max-width: 768px) {
+    .inspiration-textbox {
+      padding: 50px 20px; /* Less padding for smaller screens */
+      width: 90%; /* Take up more width for readability */
+      font-size: 14px; /* Adjust font size for smaller screens */
+    }
+  }
+  
