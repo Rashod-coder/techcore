@@ -20,7 +20,7 @@ function HomePage() {
         <div className="title-section">
           <br></br><br></br>
           <h1 className="title">TechCore <FaDesktop className="icon" /></h1>
-          <p className="subtitle">Helping schools bridge the digital divide.</p>
+          <p className="subtitle">Striving to reduce the digital divide in education</p>
           <br/>
           <a href="http://tinyurl.com/techcoreApp" target="_blank" rel="noopener noreferrer" style={{ fontSize: "larger" }}>Click here to apply to become an officer</a>
         </div>
