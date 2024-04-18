@@ -14,14 +14,15 @@ import { Analytics } from '@vercel/analytics/react';
   return (
     <Router>
       <div className="App">
-        <Navbar />
         <div className="content">
+      
+        <Navbar><Home></Home></Navbar>
+        
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/about" element={<AboutPage />} /> 
             <Route path="/contact" element={<ContactPage />} />
             <Route path="/classes" element={<Classes />} /> 
-            <Route path="*" element={<Navigate to="/" replace />} />
             <Route path = "/inspiration" element={<Inspiration />} />
           </Routes>
         </div>

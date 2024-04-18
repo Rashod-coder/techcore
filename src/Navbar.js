@@ -1,23 +1,54 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
-import './Navbar.css';
+import TechLogo from './Tech.png';
+import './Navbar.css'; // Import CSS file for styling
 
-function Navbar() {
+
+const Navbar = ({ }) => {
   return (
-    <nav style={{ backgroundColor: '#101827' }}> 
-      <div className="dropdown">
-        <button className="dropbtn">Menu</button>
-        <div className="dropdown-content">
-          <Link to="/">Home</Link>
-          <Link to="/about">About</Link>
-          <Link to="/Inspiration">Inspiration</Link>
-          <Link to="/classes">Classes</Link>
-          <Link to="/Contact">Contact</Link>
-          <a href="https://www.gofundme.com/f/schools-in-need-of-computers" target="_blank" rel="noopener noreferrer">Donate</a>
+      <nav className="navbar navbar-expand-lg navbar-dark bg-transparent">
+        <div className="container ms-3"> {/* Add margin-left utility class "ms-3" */}
+          <a href="/" className='navbar-brand'>
+            <img src= {TechLogo} alt="Rishit Gupta" style={{ maxWidth: '95%', maxHeight: '95px' }} />
+          </a>
+          <button className="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+            <span className="navbar-toggler-icon"></span>
+          </button>
+          
+          {/* Offcanvas Sidebar */}
+          <div className="sidebar offcanvas offcanvas-start" tabIndex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+            {/* Offcanvas Header */}
+            <div className="offcanvas-header text-white border-bottom"> 
+              <h5 className="offcanvas-title" id="offcanvasNavbarLabel"><a href='/'>Techcore</a></h5>
+              <button type="button" className="btn-close btn-close-black" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            
+            {/* Offcanvas Body */}
+            <div className="offcanvas-body">
+              {/* Navigation Links */}
+              <ul className="navbar-nav justify-content-center flex-grow-1 pe-3 ms-5">
+                <li className="nav-item mx-2">                
+                <a class="nav-link" href="/about" style={{fontSize:'26px'}}>About</a>
+
+                </li>
+                <li className="nav-item mx-2">
+                <a class="nav-link" href="/contact" style={{fontSize:'26px'}}>Contact</a>
+
+                </li>
+                <li className="nav-item mx-2">
+                <a class="nav-link" href="/" style={{fontSize:'26px'}}>Donate</a>
+                </li>
+                <li className="nav-item mx-2">
+                <a class="nav-link" href="/classes" style={{fontSize:'26px'}}>Summer Classes</a>
+                </li>
+                <li className="nav-item mx-2">
+                <a class="nav-link" href="/inspiration" style={{fontSize:'26px'}}>Inspiration</a>
+                </li>
+              </ul>
+            </div>
+          </div>
         </div>
-      </div>
-    </nav>
+      </nav>
   );
-}
+};
 
 export default Navbar;

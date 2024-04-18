@@ -1,62 +1,36 @@
 import React, { useEffect } from 'react';
-import pic01 from './pic01.jpg';
 import { FaLaptop, FaHandsHelping, FaDesktop, FaUserFriends } from 'react-icons/fa';
 import AOS from 'aos'; 
 import 'aos/dist/aos.css'; 
+import { Card, CardHeader, CardBody, CardTitle, CardText, Button, CardFooter } from 'reactstrap'; // Import Reactstrap components
 import './HomePage.css';
 import { Analytics } from '@vercel/analytics/react';
+import Tblue from './tblue.jpg'; // Import the background image
 
 function HomePage() {
   useEffect(() => {
-    AOS.init({ 
-      duration: 1000,
-      once: true, 
-      easing: 'ease-in-out', 
-    });
+    AOS.init({ duration: 1000 });
   }, []);
 
   return (
-    <div className="home-page" style={{ backgroundImage: `url(${pic01})` }}>
-        <div className="title-section">
-          <br></br><br></br>
-          <h1 className="title">TechCore <FaDesktop className="icon" /></h1>
-          <p className="subtitle">Striving to reduce the digital divide in education</p>
-          <br/>
-          <a href="http://tinyurl.com/techcoreApp" target="_blank" rel="noopener noreferrer" style={{ fontSize: "larger" }}>Click here to apply to become an officer</a>
-        </div>
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-  
-        <div className="solution-section">
-          <div data-aos="fade-up" className="solution-card">
-            <FaLaptop className="solution-icon" />
-            <p className="solution-title">Our Solution:</p>
-            <p className="solution-description">
-              We understand that every school can't afford computers for every student. <br />
-              That's why we want to donate laptops to schools so every student has access to technology in the classroom.
-            </p>
+    <div className="homepage" style={{ backgroundImage: `url(${Tblue})`, backgroundSize: 'cover', backgroundPosition: 'center', width: '100%', height: '100vh', marginTop: '-150px' }}>
+      <div style={{marginTop: '0px'}}>
+        <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
+        <div className="row">
+          <div className="col-4 text-center">
+            <h1 style={{marginTop: '-20px'}}>Striving to Reduce the Digital Divide in Education.</h1>
           </div>
-          <div data-aos="fade-up" className="solution-card">
-            <FaHandsHelping className="solution-icon" />
-            <p className="solution-title">TechCore in the Community:</p>
-            <p className="solution-description">
-              We're proud to be a part of the community and give back in any way we can. Hosting Computer Donation Drives, raising money to purchase computers.
-            </p>
+          <div className='col-8'> 
+            <h1>Side by side text</h1>
           </div>
         </div>
-        <div data-aos="fade-up" className="contribution-section">
-          <FaUserFriends className="contribution-icon" />
-          <p className="contribution-title">How you can contribute towards our cause</p>
-          <p className="contribution-description">
-            We are currently raising funds through our Gofundme campaign all the funds collected will be used towards purchasing chromebooks. If you would like to donate, click on "Donate" which can be found at the top of the page
-            <br /> 
-            <br /> Additionally, we are accepting donations of used laptops to support our cause. If you would like to donate a laptop, send a DM via Instagram or E-mail which can be found in the Contact page.
-          </p>
-        </div>
-        <Analytics />
+        <div className='row'>
+            <div className='col-4'>
+              <h1></h1>
+            </div>
+          </div>
+      </div>
+      <Analytics />
     </div>
   );
 }

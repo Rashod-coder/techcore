@@ -1,10 +1,10 @@
 import React from 'react';
-import pic2 from './pic2.jpg';
+// import pic2 from './pic2.jpg';
 
 function Classes() {
     return (
         <div style={{ 
-            backgroundImage: `url(${pic2})`, 
+            // backgroundImage: `url(${pic2})`, 
             backgroundSize: 'cover', 
             height: '150vh', 
             padding: '20px', 
