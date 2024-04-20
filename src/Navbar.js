@@ -1,5 +1,5 @@
 import React from 'react';
-import TechLogo from './Tech.png';
+import TechLogo from './Assets/Tech.png';
 import './Navbar.css'; // Import CSS file for styling
 
 
@@ -8,7 +8,7 @@ const Navbar = ({ }) => {
       <nav className="navbar navbar-expand-lg navbar-dark bg-transparent">
         <div className="container ms-3"> {/* Add margin-left utility class "ms-3" */}
           <a href="/" className='navbar-brand'>
-            <img src= {TechLogo} alt="Rishit Gupta" style={{ maxWidth: '95%', maxHeight: '95px' }} />
+            <img src= {TechLogo} alt="Rishit Gupta" style={{ maxWidth: '100%', maxHeight: '125px' }} />
           </a>
           <button className="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
             <span className="navbar-toggler-icon"></span>

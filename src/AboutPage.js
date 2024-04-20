@@ -1,12 +1,12 @@
 import React from 'react';
-import pic01 from './pic01.jpg'; 
+// import pic01 from './pic01.jpg'; 
 
 function AboutPage() {
   return (
    <div className='tittle'>
     
     <div style={{
-      backgroundImage: `url(${pic01})`,
+      // backgroundImage: `url(${pic01})`,
       backgroundSize: 'cover',
       height: '100vh',
       color: 'white', 

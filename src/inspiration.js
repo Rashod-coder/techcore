@@ -1,11 +1,11 @@
 import React from 'react';
-import pic01 from './pic01.jpg';
+// import pic01 from './pic01.jpg';
 import './inspiration.css'; // Import the CSS file here
 
 function InspirationPage(){
     return (
         <div className='title'>
-            <div className="inspiration-background" style={{ backgroundImage: `url(${pic01})` }}>
+            {/* <div className="inspiration-background" style={{ backgroundImage: `url(${pic01})` }}> */}
                 <div className="inspiration-textbox">
                     <h1>What inspired us</h1>
                     <p>
@@ -22,7 +22,7 @@ function InspirationPage(){
                     </p>
                 </div>
             </div>
-        </div>
+        // </div>
     );
 }
 

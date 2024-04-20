@@ -6,10 +6,10 @@
     margin-right: auto;
   }
   
-  @media (max-width: 576px) { /* Adjust the breakpoint as needed */
+  @media (max-width: 576px) { 
     .logo-img {
         
-      max-width: 60%; /* Adjust the width as needed */
+      max-width: 60%; 
     }
   }
   
