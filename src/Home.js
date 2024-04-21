@@ -32,20 +32,17 @@ function HomePage() {
       <div className="homepage" style={{ backgroundImage: `url(${background})`, backgroundSize: 'cover', backgroundPosition: 'center', width: '100%', height: '125vh', marginTop: '-150px' }}>
         <br></br>
         <h1 className='text-center'style={{fontSize: '50px'}}>Techcore in the community: </h1>
-        <Container>
-          <Row style={{alignItems: 'center'}}>    
-            <Col lg="3" md = "12 " sm="12" className="mb-4 mb-md-0">  
-              <Cards/>
-            </Col>  
-            <Col lg="3" md = "12 " sm="12" className="mb-4 mb-md-0">  
-              <Cards/>
-            </Col>  
-            <Col lg="3" md = "12 " sm="12" className="mb-4 mb-md-0">  
-              <Cards/>
-            </Col>  
-            
-          </Row>
-        </Container>
+        <div className='container'>
+        <div className='row'>
+        <div className='col-lg-2 col-md-3 col-sm-12'>
+          <Cards/>
+        </div>
+        <div className='col-lg-2 col-md-3 col-sm-12'>
+          <Cards/>
+        </div>
+          </div>
+        </div>
+          
       </div>
     </div>
   );
