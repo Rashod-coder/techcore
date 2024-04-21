@@ -26,7 +26,7 @@ function HomePage() {
           <Row>
             <Col lg="9" md = "12 " sm="12" className="mb-4 mb-md-0 mb-5 mt-5">  
               <br/><br/><br/><br/>
-              <h1 style={{fontSize: '50px', color: 'black'}}className='text-center'>Striving to Reduce the Digital Divide in Education</h1>
+              <h1 style={{fontSize: '50px', color: 'black', fontFamily: 'Titillium Web'}}className='text-center'>Striving to Reduce the Digital Divide in Education</h1>
             </Col>     
             <Col lg="3" md="12" sm="12" className="text-center mb-5 mt-5">
             <img src={logo} alt="Laptop" className="logo-img " />

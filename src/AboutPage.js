@@ -1,42 +1,40 @@
 import React from 'react';
-import background from './Assets/smooth.jpg'; // Import the background image
+import background from './Assets/smooth.jpg'; 
+import About from './Components/About'
+import Inspiration from './Components/Inspiration'
+
+
 
 function AboutPage() {
   return (
-   <div className='tittle'>
-    
-    <div style={{
-      backgroundImage: `url(${background})`,
-      backgroundSize: 'cover',
-      height: '100vh',
-      marginTop: '-160px',
-      padding: '20px', 
-      display: 'flex',
-      justifyContent: 'center',
-      alignItems: 'center',
-    }}>
-      <div style={{
-        backgroundColor: 'black', 
-        padding: '100px', 
-        border: '4px blue', 
-        borderRadius: '10px', 
-        textAlign: 'center', 
-      }}>
-        <br />
+    <div>
+      
+      <div className="homepage" style={{ backgroundImage: `url(${background})`, backgroundSize: 'cover', backgroundPosition: 'center', width: '100%', height: 'auto', marginTop: '-150px'}}>
+        <br></br><br/><br/><br></br><br/><br/><br></br>
+        <h1 className='text-center'style={{fontSize: '50px'}}>Our Vision</h1>
+        <div className='container'>
+        <div className='row'>
         
-        <h1>TechCore - Providing Access to Technology for Schools</h1>
-        <p>
-          Founded by <a href='https://rishitgupta.xyz'>Rishit Gupta</a> a high school student at Amador Valley High School.
-          <br/>
-          TechCore is a non profit that strives to provide access to technology for schools by donating used and new computers.
-          <br /> 
-          We believe that every student should have the opportunity to learn and grow with the help of modern technology. 
-          <br />
-          With the help of our donors, we are able to provide schools with the resources they need to succeed.
-        </p>
-      </div>
+            <div className='col-lg-6 col-md-8 col-sm-12 mt-5 mb-5'>
+              
+                <About/>
+                
+            </div>
+            
+            <div className='col-lg-12 col-md-8 col-sm-12 mt-5 mb-5'>
+              
+                <Inspiration/>
+                
+            </div>
+            
+            
+            
+          </div>
+          </div>
+          
+        </div>
+          
     </div>
-    </div> 
   );
 }
 
