@@ -9,6 +9,8 @@ import logo from './Assets/Tech.png';
 import './home.css'
 import Cards from './Components/Cards'
 import Card from 'react-bootstrap/Card';
+import Community from './Components/Community'
+
 
 function HomePage() {
   
@@ -16,7 +18,8 @@ function HomePage() {
   return (
     <div>
       <div className="homepage" style={{ backgroundImage: `url(${background})`, backgroundSize: 'cover', backgroundPosition: 'center', width: '100%', height: '130vh', marginTop: '-160px' }}>
-        <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
+      <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
+
         <Container>
           <Row>
             <Col lg="9" md = "12 " sm="12" className="mb-4 mb-md-0">  
@@ -33,17 +36,24 @@ function HomePage() {
         <br></br>
         <h1 className='text-center'style={{fontSize: '50px'}}>Techcore in the community: </h1>
         <div className='container'>
-        <div className='row'>
-        <div className='col-lg-2 col-md-3 col-sm-12'>
-          <Cards/>
-        </div>
-        <div className='col-lg-2 col-md-3 col-sm-12'>
-          <Cards/>
-        </div>
+        <div className='row gx-5'>
+        <div className='col-lg-6 col-md-8 col-sm-12 mt-5'>
+              
+                <Cards/>
+                
+            </div>
+            <div className='col-lg-6 col-md-8 col-sm-12 mt-5'>
+              
+                <Community/>
+                
+            </div>
+            
+            
           </div>
+          </div>
+          
         </div>
           
-      </div>
     </div>
   );
 }
