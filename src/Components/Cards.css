@@ -16,3 +16,21 @@
     }
   }
   
+  .card {
+    /* Your existing card styles */
+    /* Add any other necessary styles */
+  
+    /* Apply 3D effect */
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+    transform-style: preserve-3d;
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+    
+    
+  }
+  
+  .card:hover {
+    /* Scale up the card and adjust shadow on hover */
+    transform: scale(1.05);
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
+  }
+  
