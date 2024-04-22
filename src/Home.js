@@ -28,7 +28,7 @@ function HomePage() {
               <br/><br/><br/><br/>
               <h1 style={{fontSize: '50px', color: 'black', fontFamily: 'Titillium Web'}} className='text-center'>Striving to Reduce the Digital Divide in Education</h1>
             </Col>     
-            <Col lg="3" md="12" sm="12" className="text-center mb-5 mt-5">
+            <Col lg="3" md="12" sm="12" className="text-center">
               <img src={logo} alt="Laptop" className="logo-img" />
             </Col>
           </Row>

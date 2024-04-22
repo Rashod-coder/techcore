@@ -9,7 +9,14 @@
   @media (max-width: 576px) { 
     .logo-img {
         
-      max-width: 55%; 
+      max-width: 20%; 
+    }
+  }
+
+  @media (max-width: 660px) { 
+    .logo-img {
+        
+      max-width: 50%; 
     }
   }
   
