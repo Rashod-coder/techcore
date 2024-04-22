@@ -1,0 +1,18 @@
+.equalBox {
+    background-color: rgba(5, 0, 0, 0.059);
+    border-radius: 10px;
+    height: 150px; 
+    width: 150px; 
+    margin: 10vh; 
+    text-align: center;
+    margin-top: 95px;
+    box-shadow: 0 4px 8px rgb(58, 72, 86);
+    max-width: 100%;
+    padding: 10px;
+    border: 1px solid rgb(255, 255, 255);
+    overflow: hidden;
+    word-wrap: break-word;
+    color: white;
+    transition: transform 0.1s ease-in-out; 
+  
+  }

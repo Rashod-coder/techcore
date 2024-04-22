@@ -8,7 +8,7 @@ const Navbar = ({ }) => {
       <nav className="navbar navbar-expand-lg navbar-light bg-transparent">
         <div className="container ms-3"> {/* Add margin-left utility class "ms-3" */}
           <a href="/" className='navbar-brand'>
-            <img src= {TechLogo} alt="Rishit Gupta" style={{ maxWidth: '100%', maxHeight: '100px' }} />
+            <img src= {TechLogo} alt="Techcore" style={{ maxWidth: '100%', maxHeight: '100px' }} />
           </a>
           <button className="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
             <span className="navbar-toggler-icon"></span>
