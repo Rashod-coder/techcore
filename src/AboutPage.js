@@ -2,6 +2,7 @@ import React from 'react';
 import background from './Assets/smooth.jpg'; 
 import About from './Components/About'
 import Inspiration from './Components/Inspiration'
+import './About.css'
 
 
 

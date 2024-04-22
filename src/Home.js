@@ -5,7 +5,7 @@ import 'aos/dist/aos.css';
 import './output.css';
 import { Analytics } from '@vercel/analytics/react';
 import background from './Assets/two.jpg';
-import background1 from './Assets/pool.jpg';
+import background1 from './Assets/bluee.jpg';
 import logo from './Assets/Tech.png';
 import './home.css'
 import Cards from './Components/Cards'
