@@ -39,6 +39,7 @@ function HomePage() {
       <div className="homepage" style={{ backgroundImage: `url(${background})`, backgroundSize: 'cover', backgroundPosition: 'center', width: '100%', height: 'auto', marginTop: '-150px'}}>
         <br/>
         <h1 className='text-center' style={{fontSize: '50px', fontFamily: 'Titillium Web', color: 'white'}}>Techcore in the community</h1>
+        <div className="text-white border-bottom"/> 
         <div className='container'>
           <div className='row gx-5'>
             <div className='col-lg-6 col-md-8 col-sm-12 mt-5'>
