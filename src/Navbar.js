@@ -40,9 +40,7 @@ const Navbar = ({ }) => {
                 <li className="nav-item mx-2">
                 <a class="nav-link" href="/classes" style={{fontSize:'26px'}}>Summer Classes</a>
                 </li>
-                <li className="nav-item mx-2">
-                <a class="nav-link" href="/inspiration" style={{fontSize:'26px'}}>Inspiration</a>
-                </li>
+              
               </ul>
             </div>
           </div>
