@@ -4,7 +4,8 @@ import './Footer.css';
 function Footer() {
   return (
     <footer className="footer">
-      <p>&copy; Techcore 2024</p>
+      <p>&copy; Techcore is fiscally sponsored by The Hack Foundation (d.b.a. Hack Club), a 501(c)(3) nonprofit (EIN: 81-2908499)</p>
+
     </footer>
   );
 }

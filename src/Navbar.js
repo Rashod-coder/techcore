@@ -35,7 +35,7 @@ const Navbar = ({ }) => {
 
                 </li>
                 <li className="nav-item mx-2">
-                <a class="nav-link" href="/" style={{fontSize:'26px'}}>Donate</a>
+                <a class="nav-link" href="https://hcb.hackclub.com/donations/start/techcore" style={{fontSize:'26px'}}>Donate</a>
                 </li>
                 <li className="nav-item mx-2">
                 <a class="nav-link" href="/classes" style={{fontSize:'26px'}}>Summer Classes</a>
