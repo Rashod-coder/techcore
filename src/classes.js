@@ -1,107 +1,60 @@
 import React from 'react';
-// import pic2 from './pic2.jpg';
+import background from './Assets/bluee.jpg'; 
+import Offers from './Components/Offers'
+import Sign from './Components/Sign'
+import './About.css'
 
-function Classes() {
-    return (
-        <div style={{ 
-            // backgroundImage: `url(${pic2})`, 
-            backgroundSize: 'cover', 
-            height: '150vh', 
-            padding: '20px', 
-            position: 'relative', 
-        }}>
-            <h1 style={{ 
-                margin: 0, 
-                position: 'absolute', 
-                top: 50, 
-                left: 0,
-                padding: '20px', 
-                color: 'white',
-                
-            }}>
-                
-                Programs we offer
-            </h1>
-            <div style={{ 
-                backgroundColor: 'black', 
-                padding: '20px', 
-                borderRadius: '10px', 
-                marginBottom: '20px', 
-                position: 'relative', 
-                top: '110px',
-                border: '4px solid white', 
-                boxShadow: '0px 0px 100px rgba(31, 64, 96, 0.9)', 
-            }}>
 
-                <h1 style={{ color: 'white' }}></h1>
-                <p style={{ color: 'white' }}>These classes are offered to grades 6-8 for no Cost</p>
-                <p style={{ color: 'white' }}>Signs up aren't open yet</p>
+
+function AboutPage() {
+  return (
+    <div>
+      
+      <div className="homepage" style={{ backgroundImage: `url(${background})`, backgroundSize: 'cover', backgroundPosition: 'center', width: '100%', miHeight: '150vh', marginTop: '-150px'}}>
+        <br></br><br/><br/><br></br><br/><br/><br></br>
+        <h1 className='text-center'style={{fontSize: '50px'}}> Summer classes</h1>
+        <h3 className='text-center'>These classes are offered free of cost and anyone in Grades 5-8 can sign up. Starting from June.</h3>
+        <div className='container'>
+        <div className='row'>
+        
+            <div className='col-lg-7 col-md-8 col-sm-12 mt-5 mb-5'>
+              
+                <Offers/>
+                <div className='col-md-8 text-center'>Refer to the calander for exact dates</div>
+                
+                
+            </div>
+            <div className='col-lg-5 col-md-8 col-sm-12 mt-5 mb-5'>
+              
+            <iframe
+      src="https://calendar.google.com/calendar/embed?height=600&wkst=2&ctz=America%2FLos_Angeles&bgcolor=%23ffffff&showPrint=0&showTabs=0&src=MDUwMWJjZjU1NDk5MTY2OGZkYjZjYjBkYjczYTM0NjE1ZGU1ZTBjMTgxOGJlODhlMDVmNjI4MzAzYWU0MGEzOUBncm91cC5jYWxlbmRhci5nb29nbGUuY29t&color=%238E24AA"
+      style={{ border: 'solid 1px #777' }}
+      width="100%"
+      height="450px"
+      frameBorder="0"
+      scrolling="no"
+      title="Google Calander"
+    ></iframe>
+                
+            </div>
+            <div className='col-lg-12 col-md-8 col-sm-12 mt-5 mb-5'>
+              
+                <Sign/>
+                
             </div>
             
-            <div style={{ 
-                display: 'flex', 
-                justifyContent: 'space-between', 
-                width: '100%', 
-                marginTop: '300px',
-                flexDirection: 'column', 
-                alignItems: 'center', 
-                }}>
-                <div style={{ 
-                    backgroundColor: 'black', 
-                    padding: '20px', 
-                    borderRadius: '10px', 
-                    width: '200px',
-                    border: '4px solid white', 
-                    boxShadow: '0px 0px 100px rgba(31, 64, 96, 0.6)',
-                    marginBottom: '20px' 
-                }}>
-                    <h1 style={{ color: 'white' }}>Python</h1>
-                    <p style={{ color: 'white' }}></p>
-                    <p style={{ color: 'white' }}></p>
-                </div>{/*  */}
-                <div style={{ 
-                    backgroundColor: 'black', 
-                    padding: '20px', 
-                    borderRadius: '10px', 
-                    width: '200px',
-                    border: '4px solid white', 
-                    boxShadow: '0px 0px 100px rgba(31, 64, 96, 0.6)',
-                    marginBottom: '20px'  
-                }}>
-                    <h1 style={{ color: 'white' }}>Web Dev.</h1>
-                    <p style={{ color: 'white' }}></p>
-                    <p style={{ color: 'white' }}></p>
-                </div>
-                <div style={{ 
-                    backgroundColor: 'black', 
-                    padding: '20px', 
-                    borderRadius: '10px', 
-                    width: '200px',
-                    border: '4px solid white', 
-                    boxShadow: '0px 0px 100px rgba(31, 64, 96, 0.6)',
-                    marginBottom: '20px' 
-                }}>
-                    <h1 style={{ color: 'white' }}>Business</h1>
-                    <p style={{ color: 'white' }}></p>
-                    <p style={{ color: 'white' }}></p>
-                </div>
-                <div style={{ 
-                    backgroundColor: 'black', 
-                    padding: '20px', 
-                    borderRadius: '10px', 
-                    width: '200px',
-                    border: '4px solid white', 
-                    boxShadow: '0px 0px 100px rgba(31, 64, 96, 0.6)',
-                    marginBottom: '20px' 
-                }}>
-                    <h1 style={{ color: 'white' }}>Graphic Design</h1>
-                    <p style={{ color: 'white' }}></p>
-                    <p style={{ color: 'white' }}></p>
-                </div>
+            
+            
+            
+            
+            
+          </div>
+          </div>
+          
         </div>
-
-        </div>
-    );
+          
+    </div>
+  );
 }
 
-export default Classes;
+export default AboutPage;

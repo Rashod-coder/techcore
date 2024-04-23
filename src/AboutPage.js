@@ -12,7 +12,7 @@ function AboutPage() {
       
       <div className="homepage" style={{ backgroundImage: `url(${background})`, backgroundSize: 'cover', backgroundPosition: 'center', width: '100%', height: 'auto', marginTop: '-150px'}}>
         <br></br><br/><br/><br></br><br/><br/><br></br>
-        <h1 className='text-center'style={{fontSize: '50px'}}>Our Vision</h1>
+        <h1 class="text-center " style={{fontSize: "50px", fontFamily: 'Roboto Flex'}}>Our Vision</h1>
         <div className='container'>
         <div className='row'>
         
