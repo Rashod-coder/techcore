@@ -1,5 +1,5 @@
 import React from 'react';
-import background from './Assets/bluee.jpg'; 
+import background from './Assets/twentyseven.jpg'; 
 import Offers from './Components/Offers'
 import Sign from './Components/Sign'
 import './About.css'

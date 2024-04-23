@@ -1,7 +1,7 @@
 import React from 'react';
 // import pic01 from './pic2.jpg';
 import { FaInstagram, FaEnvelope } from 'react-icons/fa'; 
-import background1 from './Assets/bluee.jpg';
+import background1 from './Assets/twentyseven.jpg';
 import './Contact.css'
 
 
@@ -10,7 +10,7 @@ function ContactPage() {
   return (
 <div className="contact" style={{ backgroundImage: `url(${background1})`, backgroundSize: 'cover', backgroundPosition: 'center', width: '100%', height: 'auto', marginTop: '-160px'}}>     
 <br/><br/><br/><br/><br/><br/>
-<h1 className="text-center" style={{ fontFamily: 'Roboto Flex',  fontSize: '50px', color: 'white'}}>Contact</h1>
+<h1 className="text-center" style={{ fontFamily: 'Roboto Flex',  fontSize: '50px', color: 'black'}}>Contact</h1>
 <h6 className='text-center ' style={{fontFamily: 'oxygen', fontSize: '30px'}}>One stop for all of our platforms</h6>
     <div className="text-center">
     <hr style={{ display: 'inline-block', borderColor: 'white', width: '90%' }} />

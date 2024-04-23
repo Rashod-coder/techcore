@@ -1,5 +1,5 @@
 import React from 'react';
-import background from './Assets/bluee.jpg'; 
+import background from './Assets/twentyseven.jpg'; 
 import About from './Components/About'
 import Inspiration from './Components/Inspiration'
 import './About.css'
