@@ -15,10 +15,10 @@ const Navbar = ({ }) => {
           </button>
           
           {/* Offcanvas Sidebar */}
-          <div className="sidebar offcanvas offcanvas-start" tabIndex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+          <div className="sidebar offcanvas offcanvas-end" tabIndex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel" style={{backgroundColor: 'rgba(73, 105, 191, 0.85 )', backdropFilter: 'blur(100px)'}}>
             {/* Offcanvas Header */}
             <div className="offcanvas-header text-white border-bottom"> 
-              <h5 className="offcanvas-title" id="offcanvasNavbarLabel"><a href='/'>Techcore</a></h5>
+              <h5 className="offcanvas-title" id="offcanvasNavbarLabel"><a href='/' style={{color: 'black', textDecoration: 'none'}}>Techcore</a></h5>
               <button type="button" className="btn-close btn-close-black" data-bs-dismiss="offcanvas" aria-label="Close"></button>
             </div>
             

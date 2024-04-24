@@ -31,7 +31,7 @@ function ContactPage() {
         </div>
         <div className='col-auto mb-6'>
           <div className='equalBox'>E-mail
-          <a href="project.techcore@gmail.com">
+          <a href="mailto:project.techcore@gmail.com" style={{ textDecoration: 'underline', color: 'white' }}>
           <img src="./emails.png" alt="Github Logo" style={{ maxWidth: '100%', maxHeight: '100%' }} />
           </a>
           </div>
@@ -54,7 +54,7 @@ function ContactPage() {
           </div>
         </div>
         <div className='col-auto'>
-          <div className='equalBox'><a href='Leads to hack club'>Donate</a></div>
+          <div className='equalBox'><a href='https://hcb.hackclub.com/donations/start/techcore'>Donate</a></div>
         </div>
       </div>
     </div>

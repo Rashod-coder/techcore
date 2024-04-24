@@ -16,19 +16,13 @@ import { Analytics } from '@vercel/analytics/react';
         <div className="content">
       
         <Navbar/>
-        
-        
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/about" element={<AboutPage />} /> 
             <Route path="/contact" element={<ContactPage />} />
             <Route path="/classes" element={<Classes />} /> 
-            
-
           </Routes>
         </div>
-
-
         <Footer />
         <Analytics />
       </div>
