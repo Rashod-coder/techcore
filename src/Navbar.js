@@ -1,51 +1,42 @@
 import React from 'react';
 import TechLogo from './Assets/Tech.png';
-import './Navbar.css'; // Import CSS file for styling
+import 'bootstrap/dist/css/bootstrap.min.css';
 
-
-const Navbar = ({ }) => {
+const Navbar = () => {
   return (
-      <nav className="navbar navbar-expand-lg navbar-light bg-transparent">
-        <div className="container"> {/* Add margin-left utility class "ms-3" */}
-          <a href="/" className='navbar-brand'>
-            <img src= {TechLogo} alt="Techcore" style={{ maxWidth: '100%', maxHeight: '100px' }} />
-          </a>
-          <button className="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
-            <span className="navbar-toggler-icon"></span>
-          </button>
-          
-          {/* Offcanvas Sidebar */}
-          <div className="sidebar offcanvas offcanvas-end" tabIndex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel" style={{backgroundColor: 'rgba(73, 105, 191, 0.85 )', backdropFilter: 'blur(100px)'}}>
-            {/* Offcanvas Header */}
-            <div className="offcanvas-header text-white border-bottom"> 
-              <h5 className="offcanvas-title" id="offcanvasNavbarLabel"><a href='/' style={{color: 'black', textDecoration: 'none'}}>Techcore</a></h5>
-              <button type="button" className="btn-close btn-close-black" data-bs-dismiss="offcanvas" aria-label="Close"></button>
-            </div>
-            
-            {/* Offcanvas Body */}
-            <div className="offcanvas-body">
-              {/* Navigation Links */}
-              <ul className="navbar-nav justify-content-center flex-grow-1 pe-3 ms-5">
-                <li className="nav-item mx-2">                
-                <a class="nav-link" href="/about" style={{fontSize:'26px'}}>About</a>
-
-                </li>
-                <li className="nav-item mx-2">
-                <a class="nav-link" href="/contact" style={{fontSize:'26px'}}>Contact</a>
-
-                </li>
-                <li className="nav-item mx-2">
-                <a class="nav-link" href="https://hcb.hackclub.com/donations/start/techcore" style={{fontSize:'26px'}}>Donate</a>
-                </li>
-                <li className="nav-item mx-2">
-                <a class="nav-link" href="/classes" style={{fontSize:'26px'}}>Summer Classes</a>
-                </li>
-              
-              </ul>
-            </div>
+    <nav className="navbar navbar-expand-lg navbar-dark bg-dark shadow-lg">
+      <div className="container">
+        <a href="/" className='navbar-brand text-white'>
+          Techcore
+        </a>
+        <button className="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+          <span className="navbar-toggler-icon"></span>
+        </button>
+        
+        <div className="sidebar offcanvas offcanvas-end" tabIndex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel" style={{ backgroundColor: 'rgba(73, 105, 191, 0.85)', backdropFilter: 'blur(10px)' }}>
+          <div className="offcanvas-header text-white border-bottom">
+            <h5 className="offcanvas-title" id="offcanvasNavbarLabel"><a href='/' className="text-white" style={{ textDecoration: 'none' }}>Techcore</a></h5>
+            <button type="button" className="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+          </div>
+          <div className="offcanvas-body">
+            <ul className="navbar-nav mx-auto">
+              <li className="nav-item mx-2">
+                <a className="nav-link text-white" href="/about" style={{ fontSize: '26px', textShadow: '1px 1px 2px black' }}>About</a>
+              </li>
+              <li className="nav-item mx-2">
+                <a className="nav-link text-white" href="/contact" style={{ fontSize: '26px', textShadow: '1px 1px 2px black' }}>Contact</a>
+              </li>
+              <li className="nav-item mx-2">
+                <a className="nav-link text-white" href="https://hcb.hackclub.com/donations/start/techcore" style={{ fontSize: '26px', textShadow: '1px 1px 2px black' }}>Donate</a>
+              </li>
+              <li className="nav-item mx-2">
+                <a className="nav-link text-white" href="/classes" style={{ fontSize: '26px', textShadow: '1px 1px 2px black' }}>Summer Classes</a>
+              </li>
+            </ul>
           </div>
         </div>
-      </nav>
+      </div>
+    </nav>
   );
 };
 

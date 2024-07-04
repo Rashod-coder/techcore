@@ -20,7 +20,7 @@ function HomePage() {
 
   return (
     <div>
-      <div className="homepage" style={{ backgroundImage: `url(${background1})`, backgroundSize: 'cover', backgroundPosition: 'center', width: '100%', height: '160vh', marginTop: '-160px'}}>
+      <div className="homepage" style={{ backgroundImage: `url(${background1})`, backgroundSize: 'cover', backgroundPosition: 'center', width: '100%', height: '160vh'}}>
         <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
         <Container>
           <Row>
