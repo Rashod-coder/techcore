@@ -8,8 +8,8 @@ import './Contact.css'
 
 function ContactPage() {
   return (
-<div className="contact" style={{ backgroundImage: `url(${background1})`, backgroundSize: 'cover', backgroundPosition: 'center', width: '100%', height: 'auto', marginTop: '-160px'}}>     
-<br/><br/><br/><br/><br/><br/>
+<div className="contact" style={{ backgroundImage: `url(${background1})`, backgroundSize: 'cover', backgroundPosition: 'center', width: '100%', height: 'auto'}}>     
+<br/><br/>
 <h1 className="text-center" style={{ fontFamily: 'Roboto Flex',  fontSize: '50px', color: 'black'}}>Contact</h1>
 <h6 className='text-center ' style={{fontFamily: 'oxygen', fontSize: '30px'}}>One stop for all of our platforms</h6>
     <div className="text-center">
