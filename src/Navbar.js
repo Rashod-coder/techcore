@@ -4,7 +4,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 
 const Navbar = () => {
   return (
-    <nav className="navbar navbar-expand-lg navbar-dark bg-dark shadow-lg">
+    <nav className="navbar navbar-expand-lg navbar-transparent bg-dark shadow-lg" style={{ backgroundColor: 'transparent' }}>
       <div className="container">
         <a href="/" className='navbar-brand text-white'>
           Techcore
@@ -19,18 +19,18 @@ const Navbar = () => {
             <button type="button" className="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
           </div>
           <div className="offcanvas-body">
-            <ul className="navbar-nav mx-auto">
-              <li className="nav-item mx-2">
-                <a className="nav-link text-white" href="/about" style={{ fontSize: '26px', textShadow: '1px 1px 2px black' }}>About</a>
+            <ul className="navbar-nav ms-auto"> {/* Use ms-auto to align items to the right */}
+              <li className="nav-item">
+                <a className="nav-link text-white" href="/about" style={{ fontSize: '20px', fontFamily: 'Oxygen', textShadow: '1px 1px 2px black', margin: '10px' }}>About</a>
               </li>
-              <li className="nav-item mx-2">
-                <a className="nav-link text-white" href="/contact" style={{ fontSize: '26px', textShadow: '1px 1px 2px black' }}>Contact</a>
+              <li className="nav-item">
+                <a className="nav-link text-white" href="/contact" style={{ fontSize: '20px', fontFamily: 'Oxygen', textShadow: '1px 1px 2px black', margin: '10px' }}>Contact</a>
               </li>
-              <li className="nav-item mx-2">
-                <a className="nav-link text-white" href="https://hcb.hackclub.com/donations/start/techcore" style={{ fontSize: '26px', textShadow: '1px 1px 2px black' }}>Donate</a>
+              <li className="nav-item">
+                <a className="nav-link text-white" href="https://hcb.hackclub.com/donations/start/techcore" style={{ fontSize: '20px', fontFamily: 'Oxygen', textShadow: '1px 1px 2px black', margin: '10px' }}>Donate</a>
               </li>
-              <li className="nav-item mx-2">
-                <a className="nav-link text-white" href="/classes" style={{ fontSize: '26px', textShadow: '1px 1px 2px black' }}>Summer Classes</a>
+              <li className="nav-item">
+                <a className="nav-link text-white" href="/classes" style={{ fontSize: '20px', fontFamily: 'Oxygen', textShadow: '1px 1px 2px black', margin: '10px' }}>Summer Classes</a>
               </li>
             </ul>
           </div>

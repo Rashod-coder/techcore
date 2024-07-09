@@ -1,11 +1,11 @@
 import React, { useEffect } from 'react';
-import { Container, Row, Col } from 'reactstrap';
+import { Container, Row, Col, Button } from 'reactstrap';
 import AOS from 'aos'; 
 import 'aos/dist/aos.css'; 
 import './output.css';
 import { Analytics } from '@vercel/analytics/react';
 import background from './Assets/two.jpg';
-import background1 from './Assets/twentyseven.jpg';
+import background1 from './Assets/carlos-torres-MHNjEBeLTgw-unsplash.jpg';
 import logo from './Assets/Tech.png';
 import './home.css'
 import Cards from './Components/Cards'
@@ -15,6 +15,7 @@ import Sponsors from './Components/Sponsors'
 import back2 from './Assets/engin-akyurt-BvWPWDv4Ob0-unsplash.jpg';
 
 
+
 function HomePage() {
   useEffect(() => {
     AOS.init();
@@ -22,25 +23,26 @@ function HomePage() {
 
   return (
     <div>
-      <div className="homepage" style={{ backgroundImage: `url(${background1})`, backgroundSize: 'cover', backgroundPosition: 'center', width: '100%', height: '160vh'}}>
-        <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
-        <Container>
-          <Row>
-            <Col lg="9" md="12" sm="12" className="mb-4 mb-md-0 mb-5 mt-5">  
-              <br/><br/><br/><br/>
-              <h1 style={{fontSize: '50px', color: 'black', fontFamily: 'Oxygen', fontWeight: 'bold'}} className='text-center'>Striving to Reduce the Digital Divide in Education</h1>
-            </Col>     
-            <Col lg="3" md="12" sm="12" className="text-center">
-              <img src={logo} alt="Laptop" className="logo-img" />
-            </Col>
-          </Row>
-        </Container>
-      </div>
+      <div className="homepage" style={{ backgroundImage: `url(${background1})`, backgroundSize: 'cover', backgroundPosition: 'center', width: '100%', minHeight: '100vh', display: 'flex', alignItems: 'center', justifyContent: 'center', textAlign: 'center' }}>
+      <Container>
+        <Row>
+          <Col className="mb-5">  
+            <img src={logo} alt="Techcore Logo" className="logo-img mb-3" style={{ width: '250px' }} />
+            <h1 style={{ fontSize: '3rem', color: 'black', fontFamily: 'Oxygen', fontWeight: 'bold' }}>Striving to Reduce the Digital Divide in Education</h1>
+            <div className="mt-4">
+              <a href="#about" className="btn btn-primary btn-lg" style={{ borderRadius: '40px', textDecoration: 'none' }}>
+                Learn More
+              </a>
+            </div>
+          </Col>
+        </Row>
+      </Container>
+    </div>
       
 
       
 
-      <div style={{ minHeight: '65vh', backgroundColor: '#f8f9fa', padding: '30px 0', textAlign: 'center' }}>
+      <div id='about'style={{ minHeight: '65vh', backgroundColor: '#f8f9fa', padding: '30px 0', textAlign: 'center' }}>
         <h1 className='mt-3 mb-4' style={{fontSize: '60px', fontFamily: 'Roboto Flex', color: '#343a40', fontWeight: 'bold'}}>What is Techcore?</h1>
         <p className='mb-5'style={{ maxWidth: '850px', fontSize: '28px', fontFamily: 'Arial', lineHeight: '1.5', color: '#495057', margin: 'auto', marginTop: '60px' }}>
           Techcore is a non-profit based in Bay Area CA dedicated to bridging the digital gap in education by donating laptops to schools.
