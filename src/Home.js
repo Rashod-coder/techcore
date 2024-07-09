@@ -12,6 +12,8 @@ import Cards from './Components/Cards'
 import Community from './Components/Community'
 import Work from './Components/Works'
 import Sponsors from './Components/Sponsors'
+import back2 from './Assets/engin-akyurt-BvWPWDv4Ob0-unsplash.jpg';
+
 
 function HomePage() {
   useEffect(() => {
@@ -36,28 +38,29 @@ function HomePage() {
       </div>
       
 
-      <div className="homepage" style={{ backgroundImage: `url(${background})`, backgroundSize: 'cover', backgroundPosition: 'center', width: '100%', height: 'auto', marginTop: '-150px'}}>
-        <br/>
-        <h1 className='text-center' style={{fontSize: '50px', fontFamily: 'Roboto Flex', color: 'white'}}>Techcore in the community</h1>
-        <div className="text-white border-bottom"/> 
-        <div className='container'>
-          <div className='row gx-5'>
-            <div className='col-lg-6 col-md-8 col-sm-12 mt-5'>
-              <Cards/>
-            </div>
-            <div className='col-lg-6 col-md-8 col-sm-12 mt-5'>
-              <Community/>
-            </div>
-            <div className='col-lg-12 col-md-8 col-sm-12 mt-5'>
-              <Work/>
-            </div>
-            <div className='col-lg-12 col-md-8 col-sm-12 mt-5 mb-5'>
-              <Sponsors/>
-            </div>
-          </div>
-        </div>
+      
+
+      <div style={{ minHeight: '65vh', backgroundColor: '#f8f9fa', padding: '30px 0', textAlign: 'center' }}>
+        <h1 className='mt-3 mb-4' style={{fontSize: '60px', fontFamily: 'Roboto Flex', color: '#343a40', fontWeight: 'bold'}}>What is Techcore?</h1>
+        <p className='mb-5'style={{ maxWidth: '850px', fontSize: '28px', fontFamily: 'Arial', lineHeight: '1.5', color: '#495057', margin: 'auto', marginTop: '60px' }}>
+          Techcore is a non-profit based in Bay Area CA dedicated to bridging the digital gap in education by donating laptops to schools.
+        </p>
+        <p className='mb-5'style={{ maxWidth: '800px', fontSize: '28px', fontFamily: 'Arial', lineHeight: '1.5', color: '#495057', margin: 'auto', marginTop: '60px' }}>
+          Techcore is established by a group of Highschoolers. We believe that every student should have equal opprtunity to learn and grow. Technology plays a crucial role in education today. That's why we're dedicated to ensuring schools have sufficient access to laptops, especially those facing funding challenges.
+        </p>
+        <p className='mb-5'style={{ maxWidth: '900px', fontSize: '28px', fontFamily: 'Arial', lineHeight: '1.5', color: '#495057', margin: 'auto', marginTop: '60px' }}>
+          With the support of you we can make this come true.
+        </p>
       </div>
+      <div style={{ backgroundImage: `url(${back2})`, minHeight: '45vh', backgroundColor: '#000', padding: '30px 0', textAlign: 'center' }}>
+      <h1 className='mt-3 mb-4' style={{fontSize: '60px', fontFamily: 'Roboto Flex', color: '#343a40', fontWeight: 'bold', color: 'white'}}>How can you get involved?</h1>
+      <p className='mb-5'style={{ maxWidth: '800px', fontSize: '28px', fontFamily: 'Arial', lineHeight: '1.5', color: '#495057', margin: 'auto', marginTop: '60px', color: 'white', fontFamily: 'oxygen' }}>
+        We are currently accepting fisical donations, all money donations made are tax deductible & if you have any laptops you no longer those can be donated to us.
+        </p>
+      </div>
+      
     </div>
+    
   );
 }
 
