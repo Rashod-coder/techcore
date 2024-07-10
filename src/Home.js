@@ -26,10 +26,10 @@ function HomePage() {
               <img src={logo} alt="Techcore Logo" className="logo-img mb-3" style={{ width: '250px' }} />
               <h1 style={{ fontSize: '3rem', color: 'black', fontFamily: 'Oxygen', fontWeight: 'bold' }}>Striving to Reduce the Digital Divide in Education</h1>
               <div className="mt-5">
-              <a href="#about" className="btn btn-primary btn-lg" style={{ borderRadius: '40px', textDecoration: 'none', marginRight: '15px', fontSize: '20px' }}>                  Learn More
+              <a href="#about" className="btn btn-primary btn-lg" style={{ width: '300',borderRadius: '40px', textDecoration: 'none', marginRight: '25px', fontSize: '25px' }}>                  Learn More
                 </a>
                 
-                <a href="#footer" className="btn btn-primary btn-lg ml-3" style={{ borderRadius: '40px', textDecoration: 'none' }}>
+                <a href="#footer" className="btn btn-primary btn-lg ml-3" style={{ borderRadius: '40px', textDecoration: 'none', fontSize: '25px' }}>
                   Contact Us!
                 </a>
               </div>
@@ -38,24 +38,22 @@ function HomePage() {
         </Container>
       </div>
 
-      <div id='about' style={{ minHeight: '65vh', backgroundColor: '#f8f9fa', padding: '30px 15px', textAlign: 'center' }}>
-        <Container>
-          <Row>
-            <Col>
-              <h1 className='mt-3 mb-4' style={{ fontSize: '60px', fontFamily: 'Roboto Flex', color: '#343a40', fontWeight: 'bold' }}>What is Techcore?</h1>
-              <p className='mb-5' style={{ maxWidth: '850px', fontSize: '28px', fontFamily: 'Arial', lineHeight: '1.5', color: '#495057', margin: 'auto', marginTop: '60px' }}>
-                Techcore is a non-profit based in the Bay Area, CA, dedicated to bridging the digital gap in education by donating laptops to schools.
-              </p>
-              <p className='mb-5' style={{ maxWidth: '800px', fontSize: '28px', fontFamily: 'Arial', lineHeight: '1.5', color: '#495057', margin: 'auto' }}>
-                Techcore is established by a group of high schoolers. We believe that every student should have equal opportunity to learn and grow. Technology plays a crucial role in education today. That's why we're dedicated to ensuring schools have sufficient access to laptops, especially those facing funding challenges.
-              </p>
-              <p className='mb-5' style={{ maxWidth: '900px', fontSize: '28px', fontFamily: 'Arial', lineHeight: '1.5', color: '#495057', margin: 'auto' }}>
-                With your support, we can make this come true.
-              </p>
-            </Col>
-          </Row>
-        </Container>
-      </div>
+      <div id='about' style={{ minHeight: '65vh', maxHeight: '65vh', overflowY: 'auto', backgroundColor: '#f8f9fa', padding: '30px 15px', textAlign: 'center' }}>
+    <Container fluid>
+    <Row className='justify-content-center align-items-center'>
+      <Col md={8}>
+        <h1 className='mt-3 mb-4' style={{ fontSize: '60px', fontFamily: 'Roboto Flex', color: '#343a40', fontWeight: 'bold' }}>What is Techcore?</h1>
+        <p className='mb-5' style={{ maxWidth: '850px', fontSize: '28px', fontFamily: 'Arial', lineHeight: '1.5', color: '#495057', margin: 'auto', marginTop: '60px' }}>
+          Techcore is a non-profit based in the Bay Area, CA, dedicated to bridging the digital gap in education by donating laptops to schools.
+        </p>
+        <p className='mb-5' style={{ maxWidth: '800px', fontSize: '28px', fontFamily: 'Arial', lineHeight: '1.5', color: '#495057', margin: 'auto' }}>
+          Techcore is established by a group of high schoolers. We believe that every student should have equal opportunity to learn and grow. Technology plays a crucial role in education today. That's why we're dedicated to ensuring schools have sufficient access to laptops, especially those facing funding challenges.
+        </p>
+        
+      </Col>
+    </Row>
+  </Container>
+</div>
 
       <div style={{ backgroundImage: `url(${back2})`, minHeight: '45vh', backgroundColor: '#000', padding: '30px 15px', textAlign: 'center' }}>
         <Container>
