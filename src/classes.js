@@ -1,6 +1,6 @@
 // AboutPage.js
 import React from 'react';
-import background from './Assets/twentyseven.jpg'; 
+import background from './Assets/carlos-torres-MHNjEBeLTgw-unsplash.jpg'; 
 import Offers from './Components/Offers';
 import Sign from './Components/Sign';
 import './About.css';
@@ -21,7 +21,7 @@ function AboutPage() {
     >
       <br></br><br></br>
       <h1 className="text-center" style={{ fontSize: '50px', color: '#333' }}>Summer classes</h1>
-      <h3 className="text-center" style={{ color: '#555', fontSize: '20px', fontWeight: 'bold'}}>These classes are offered free of cost and anyone in Grades 5-9 can sign up. Starting from June.</h3>
+      <h3 className="text-center" style={{ color: '#555', fontSize: '20px', fontWeight: 'bold'}}>These classes are offered free of cost and anyone in Grades 5-9 can sign up. Starting from July.</h3>
       
       <div className="container" style={{ marginTop: '50px' }}>
         <div className="row">

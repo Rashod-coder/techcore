@@ -28,7 +28,6 @@ function HomePage() {
               <div className="mt-5">
               <a href="#about" className="btn btn-primary btn-lg" style={{ width: '300',borderRadius: '40px', textDecoration: 'none', marginRight: '25px', fontSize: '25px' }}>                  Learn More
                 </a>
-                
                 <a href="#footer" className="btn btn-primary btn-lg ml-3" style={{ borderRadius: '40px', textDecoration: 'none', fontSize: '25px' }}>
                   Contact Us!
                 </a>
@@ -87,7 +86,7 @@ function HomePage() {
             <div>
               <br />
               <p className='mt-5 mb-4 py-5' style={{ fontSize: '40px', fontFamily: 'Roboto Flex', color: '#343a40' }}>Summer Classes</p>
-              <p className='h2' style={{ fontFamily: 'Roboto Flex' }}>Techcore is all about expanding learning opportunities for students, which is why we are introducing a 4-week Python interactive course starting 7/16</p>
+              <p className='h2' style={{ fontFamily: 'Roboto Flex' }}>Techcore is all about expanding learning opportunities for students, which is why we are introducing a 4-week Python interactive course starting 7/23</p>
               <br />
               <p className='h2' style={{ fontFamily: 'Roboto Flex' }}>To learn more or register your child visit <a href='/classes' style={{ textDecoration: 'underline' }}>this</a> page</p>
               <p className='h2' style={{ fontFamily: 'Roboto Flex' }}><i>In fall we will be opening up different courses!</i></p>

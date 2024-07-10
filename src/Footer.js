@@ -9,42 +9,9 @@ function Footer() {
     <footer className="text-center text-white" style={{ backgroundColor: '#000000', position: 'relative',  width: '100%', marginTop: '-80px' }}>
       
             <div className="container-fluid">
+              <p className='pt-5 mt-5'>  All monetary donations made are tax deductible, to donate any used tech DM on Instagram or Email us</p>
         {/* Section: Links */}
-        <section className="mt-5">
-          {/* Grid row*/}
-          <div className="row text-center d-flex justify-content-center pt-5">
-            {/* Grid column */}
-            <div className="col-md-2">
-              <h6 className="text-uppercase font-weight-bold mt-3">
-                <a href="#!" className="text-white ">About us</a>
-              </h6>
-            </div>
-            {/* Grid column */}
-
-            {/* Repeat the same structure for other columns */}
-            <div className="col-md-2">
-              <h6 className="text-uppercase font-weight-bold mt-3">
-                <a href="/contact" className="text-white ">Classes</a>
-              </h6>
-            </div>
-
-            <div className="col-md-2">
-              <h6 className="text-uppercase font-weight-bold mt-3">
-                <a href="https://hcb.hackclub.com/donations/start/techcore" className="text-white">Donate</a>
-              </h6>
-            </div>
-
-            
-
-            <div className="col-md-2">
-              <h6 className="text-uppercase font-weight-bold mt-3">
-                <a href="#contact" className="text-white">Contact</a>
-              </h6>
-            </div>
-            {/* End Grid column */}
-          </div>
-          {/* End Grid row*/}
-        </section>
+        
         {/* End Section: Links */}
 
         <hr className="my-5" />

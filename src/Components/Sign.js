@@ -8,7 +8,7 @@ function TextExample() {
           <div className="card mx-auto" style={{ backgroundColor: '#4D6D97' }}>
             <div className="card-body">
               <h3 className="card-title" style={{fontFamily: 'Roboto Flex', fontSize: '30px'}}>Sign up here <a hre></a></h3>
-              <p style={{fontSize: '24px', fontFamily: 'oxygen', color: 'white'}}className="card-text"> Registration for classes is currently open please sign up by Monday Night July 8th 2024 11:59 PM </p>
+              <p style={{fontSize: '24px', fontFamily: 'oxygen', color: 'white'}}className="card-text"> Registration for classes is currently open please register  by Sunday Night July 21st 2024 11:59 PM </p>
     </div>
   </div>
   );
