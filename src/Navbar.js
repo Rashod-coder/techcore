@@ -24,7 +24,7 @@ const Navbar = () => {
                 <a className="nav-link text-white" href="/about" style={{ fontSize: '20px', fontFamily: 'Oxygen', textShadow: '1px 1px 2px black', margin: '10px' }}>About</a>
               </li> */}
               <li className="nav-item">
-                <a className="nav-link text-white" href="/contact" style={{ fontSize: '20px', fontFamily: 'Oxygen', textShadow: '1px 1px 2px black', margin: '10px' }}>Team</a>
+                {/* <a className="nav-link text-white" href="/contact" style={{ fontSize: '20px', fontFamily: 'Oxygen', textShadow: '1px 1px 2px black', margin: '10px' }}>Team</a> */}
               </li>
               <li className="nav-item">
                 <a className="nav-link text-white" href="https://hcb.hackclub.com/donations/start/techcore" style={{ fontSize: '20px', fontFamily: 'Oxygen', textShadow: '1px 1px 2px black', margin: '10px' }}>Donate</a>

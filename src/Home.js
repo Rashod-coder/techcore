@@ -4,6 +4,8 @@ import AOS from 'aos';
 import 'aos/dist/aos.css'; 
 import './output.css';
 import python from './Assets/python-programming-language.webp';
+import volunteer from './Assets/istockphoto-1269224972-612x612.jpg';
+
 import background1 from './Assets/carlos-torres-MHNjEBeLTgw-unsplash.jpg';
 import logo from './Assets/Tech.png';
 import './home.css'
@@ -23,9 +25,12 @@ function HomePage() {
             <Col className="mb-5">  
               <img src={logo} alt="Techcore Logo" className="logo-img mb-3" style={{ width: '250px' }} />
               <h1 style={{ fontSize: '3rem', color: 'black', fontFamily: 'Oxygen', fontWeight: 'bold' }}>Striving to Reduce the Digital Divide in Education</h1>
-              <div className="mt-4">
-                <a href="#about" className="btn btn-primary btn-lg" style={{ borderRadius: '40px', textDecoration: 'none' }}>
-                  Learn More
+              <div className="mt-5">
+              <a href="#about" className="btn btn-primary btn-lg" style={{ borderRadius: '40px', textDecoration: 'none', marginRight: '15px', fontSize: '20px' }}>                  Learn More
+                </a>
+                
+                <a href="#footer" className="btn btn-primary btn-lg ml-3" style={{ borderRadius: '40px', textDecoration: 'none' }}>
+                  Contact Us!
                 </a>
               </div>
             </Col>
@@ -72,38 +77,44 @@ function HomePage() {
       </div>
 
       <div id='aspects' style={{ minHeight: '65vh', backgroundColor: '#ffffff', padding: '30px 15px', textAlign: 'center' }}>
-      <h1 className='mt-2 mb-5 display-2' >Some more Aspects</h1>
+      <h1 className='mt-2 mb-5 display-2' >Engage with Techcore.</h1>
 
         <Container>
-          <Row>
-            <Col lg="6" md="12">
+        <Row>
+          <Col lg="6" md="12" className="d-flex justify-content-center align-items-center">
             <img src={python} alt="Image" className="img-fluid mb-2 mb-lg-0" style={{ maxWidth: '90%' }} />
 
-            </Col>
-            <Col lg="6" md="12">
-              <div>
-                <br/>
-                <p className='mt-5 mb-4 py-5' style={{ fontSize: '40px', fontFamily: 'Roboto Flex', color: '#343a40' }}>Summer Classes</p>
-                  <p className='h2' style={{fontFamily: 'Roboto Flex'}}> Techcore is all about expanding learning opprtunities for students which is why we are introducing a 4 week python interactive course starting 7/16</p>
-                  <br/>
-                  <p className='h2' style={{fontFamily: 'Roboto Flex'}}> To learn more about this visit <a href='/classes' style={{textDecoration: 'underline'}}>this</a> page</p>
-                  <p className='h2' style={{fontFamily: 'Roboto Flex'}}> Note that in fall we will offer more classes </p>
-
-              </div>
-            </Col>
-          </Row>
-          <Row className="mt-5 mb-4">
-          <Col lg="6" md="12" className="order-lg-1">
+          </Col>
+          <Col lg="6" md="12">
             <div>
-              <img src={back2} alt="Image" className="img-fluid mb-3 mb-lg-0" style={{ maxWidth: '100%' }} />
+              <br />
+              <p className='mt-5 mb-4 py-5' style={{ fontSize: '40px', fontFamily: 'Roboto Flex', color: '#343a40' }}>Summer Classes</p>
+              <p className='h2' style={{ fontFamily: 'Roboto Flex' }}>Techcore is all about expanding learning opportunities for students, which is why we are introducing a 4-week Python interactive course starting 7/16</p>
+              <br />
+              <p className='h2' style={{ fontFamily: 'Roboto Flex' }}>To learn more or register your child visit <a href='/classes' style={{ textDecoration: 'underline' }}>this</a> page</p>
+              <p className='h2' style={{ fontFamily: 'Roboto Flex' }}><i>In fall we will be opening up different courses!</i></p>
             </div>
           </Col>
+        </Row>
+        
+          <Row className="mt-5 mb-5 pt-5 py-6">
+          <hr></hr>
+          <Col lg="6" md="12" className="d-flex justify-content-center align-items-center">
+              <img src={volunteer} alt="Image" className="img-fluid mb-3 mb-lg-0" style={{ maxWidth: '100%' }} />
+
+              
+              
+          </Col>
           <Col lg="6" md="12" className="order-lg-2">
+          
             <p className='mt-5 mb-4 py-5' style={{ fontSize: '40px', fontFamily: 'Roboto Flex', color: '#343a40' }}>Volunteer</p>
+            <p className='h2' style={{ fontFamily: 'Roboto Flex' }}> If you're currently a highschooler located in Bay Area California and want to earn volunteer hours reach out to us on instagram for possible openings, we would greatly appreciate as much help as we can possibly get.</p>
+            
           </Col>
         </Row>
         </Container>
       </div>
+      <div id='footer'></div>
     </div>
   );
 }
