@@ -63,7 +63,7 @@ function HomePage() {
             <Col>
               <h1 className='mt-3 mb-4' style={{ fontSize: '60px', fontFamily: 'Roboto Flex', color: '#fff', fontWeight: 'bold' }}>How can you get involved?</h1>
               <p className='mb-5' style={{ maxWidth: '800px', fontSize: '28px', fontFamily: 'Arial', lineHeight: '1.5', color: '#fff', margin: 'auto' }}>
-                We are currently accepting monetary donations through, All monetary donations are tax deductible. If you have any laptops you no longer use, those can be donated to us.
+                We are currently accepting monetary donations through, All monetary donations are tax deductible. We greatly appreciate any support given to us!
               </p>
               <p className='mb-5' style={{ maxWidth: '800px', fontSize: '28px', fontFamily: 'Arial', lineHeight: '1.5', color: '#fff', margin: 'auto' }}>
                 If you have any tech that you no longer use/have a need for reach out to us through email or instagram which can be found at the bottom of the page.
