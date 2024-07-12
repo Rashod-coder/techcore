@@ -13,7 +13,7 @@ const Navbar = () => {
           <span className="navbar-toggler-icon"></span>
         </button>
         
-        <div className="sidebar offcanvas offcanvas-end" tabIndex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel" style={{ backgroundColor: 'rgba(73, 105, 191, 0.85)', backdropFilter: 'blur(10px)' }}>
+        <div className="sidebar offcanvas offcanvas-end" tabIndex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel" style={{ backgroundColor: '#6184b8', backdropFilter: 'blur(10px)' }}>
           <div className="offcanvas-header text-white border-bottom">
             <h5 className="offcanvas-title" id="offcanvasNavbarLabel"><a href='/' className="text-white" style={{ textDecoration: 'none' }}>Techcore</a></h5>
             <button type="button" className="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
@@ -24,13 +24,13 @@ const Navbar = () => {
                 <a className="nav-link text-white" href="/about" style={{ fontSize: '20px', fontFamily: 'Oxygen', textShadow: '1px 1px 2px black', margin: '10px' }}>About</a>
               </li> */}
               <li className="nav-item">
-                <a className="nav-link text-white" href="/team" style={{ fontSize: '20px', fontFamily: 'Oxygen', textShadow: '1px 1px 2px black', margin: '10px' }}>Team</a>
+                <a className="nav-link text-white" href="/team" style={{ fontSize: '20px', fontFamily: 'Oxygen', margin: '10px' }}>Team</a>
               </li>
               <li className="nav-item">
-                <a className="nav-link text-white" href="https://hcb.hackclub.com/donations/start/techcore" style={{ fontSize: '20px', fontFamily: 'Oxygen', textShadow: '1px 1px 2px black', margin: '10px' }}>Donate</a>
+                <a className="nav-link text-white" href="https://hcb.hackclub.com/donations/start/techcore" style={{ fontSize: '20px',  margin: '10px' }}>Donate</a>
               </li>
               <li className="nav-item">
-                <a className="nav-link text-white" href="/classes" style={{ fontSize: '20px', fontFamily: 'Oxygen', textShadow: '1px 1px 2px black', margin: '10px' }}>Summer Classes</a>
+                <a className="nav-link text-white" href="/classes" style={{ fontSize: '20px', fontFamily: 'Oxygen',  margin: '10px' }}>Summer Classes</a>
               </li>
             </ul>
           </div>

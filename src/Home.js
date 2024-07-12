@@ -23,7 +23,7 @@ function HomePage() {
         <Container>
           <Row>
             <Col className="mb-5">  
-              <img src={logo} alt="Techcore Logo" className="logo-img mb-3" style={{ width: '250px' }} />
+              <img src={logo} alt="Techcore Logo" className="logo-img mb-3" style={{ width: '350px' }} />
               <h1 style={{ fontSize: '3rem', color: 'black', fontFamily: 'Oxygen', fontWeight: 'bold' }}>Striving to Reduce the Digital Divide in Education</h1>
               <div className="mt-5">
               <a href="#about" className="btn btn-primary btn-lg" style={{ width: '300',borderRadius: '40px', textDecoration: 'none', marginRight: '25px', fontSize: '25px' }}>                  Learn More
