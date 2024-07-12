@@ -33,10 +33,10 @@ function AboutPage() {
             <Sign />
             </div>
             <div className='mt-4 mb-4'>
-            <iframe src="https://docs.google.com/forms/d/e/1FAIpQLScchm8PZJWLRnKxpOJtME7D6PAgvE__13vhjMzPLx7oCrslzw/viewform?embedded=true" width="640" height="500" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>          </div>
+            <iframe src="https://docs.google.com/forms/d/e/1FAIpQLScchm8PZJWLRnKxpOJtME7D6PAgvE__13vhjMzPLx7oCrslzw/viewform?embedded=true" width="100%" height="500" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>          </div>
 
             </div>
-          <div className="col-lg-5 col-md-12 col-sm-12">
+          <div className="col-lg-5 col-md-12 col-sm-6">
             <iframe
               src="https://calendar.google.com/calendar/embed?height=600&wkst=2&ctz=America%2FLos_Angeles&bgcolor=%23ffffff&showPrint=0&showTabs=0&src=MDUwMWJjZjU1NDk5MTY2OGZkYjZjYjBkYjczYTM0NjE1ZGU1ZTBjMTgxOGJlODhlMDVmNjI4MzAzYWU0MGEzOUBncm91cC5jYWxlbmRhci5nb29nbGUuY29t&color=%238E24AA"
               style={{ border: 'solid 1px #777', borderRadius: '10px', width: '100%', height: '450px' }}
