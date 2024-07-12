@@ -9,12 +9,27 @@ function Footer() {
     <footer className="text-center text-white" style={{ backgroundColor: '#000000', position: 'relative',  width: '100%', marginTop: '-80px' }}>
       
             <div className="container-fluid">
-              <p className='pt-5 mt-5'>  All monetary donations made are tax deductible, to donate any used tech DM on Instagram or Email us</p>
+              <div className='row'>
+                <div className='col-sm-3'>
+                <p className=' mt-5'><a href='/'>Home</a></p>
+                </div>
+                <div className='col-sm-3'>
+                <p className=' mt-5'><a href='/team'>Team</a></p>
+                </div>
+                <div className='col-sm-3'>
+                <p className=' mt-5'><a href='https://hcb.hackclub.com/donations/start/techcore'>Donate</a></p>
+                </div>
+                <div className='col-sm-3'>
+                <p className=' mt-5'><a href='/classes'>Summer Classes</a></p>
+                </div>
+
+              </div>
+              
         {/* Section: Links */}
         
         {/* End Section: Links */}
 
-        <hr className="my-5" />
+        <hr className='my-5' style={{ border: '2px solid white' }} />
 
         {/* Section: Text */}
         <section id='contact'className="mb-5">
@@ -37,7 +52,7 @@ function Footer() {
             <a href="https://www.linkedin.com/company/projectechcore/?viewAsMember=true" className="text-white me-4">
               <FaLinkedinIn size={32} />
             </a>
-            <a href="mailto:project.techcore@gmail.com" className="text-white me-4">
+            <a href="mailto:general@tech-core.xyz" className="text-white me-4">
               <IoMdMail size={32} />
             </a>
             <a href="https://www.tiktok.com/@projectechcore?_t=8nt9Ii2sLK3&_r=1" className="text-white me-4">
@@ -45,12 +60,20 @@ function Footer() {
             </a>
           </div>
         </section>
+        <section className='text-center '>
+        <div className="d-flex justify-content-center">
+          <p style={{fontFamily: 'oxygen'}}>For any partnerships/sponsorships inquiries email us at  <a href='mailto: outreach@tech-core.xyz'>  : outreach@tech-core.xyz </a></p>
+          </div>
+        </section>
+        <div className="d-flex justify-content-center">
+          <p style={{fontFamily: 'oxygen'}}>For all other inquiries email us at  <a href='mailto: general@tech-core.xyz'>  : general@tech-core.xyz </a></p>
+          </div>
         {/* End Section: Social */}
       </div>
       {/* End Grid container */}
 
-      {/* Copyright */}
-      <div className="text-center p-3" style={{ backgroundColor: 'rgba(0, 0, 0, 0.2)' }}>
+      <hr className='mt-4' style={{ border: '2px solid white' }} />
+      <div className="text-center p-3 mt-4" style={{ backgroundColor: 'rgba(0, 0, 0, 0.2)' }}>
         © {new Date().getFullYear()} 
         <a className="text-white"> Techcore is fiscally sponsored by The Hack Foundation (d.b.a. Hack Club), a 501(c)(3) nonprofit</a>
       </div>

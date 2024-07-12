@@ -63,7 +63,7 @@ function HomePage() {
                 We are currently accepting monetary donations through, All monetary donations are tax deductible. We greatly appreciate any support given to us!
               </p>
               <p className='mb-5' style={{ maxWidth: '800px', fontSize: '28px', fontFamily: 'Arial', lineHeight: '1.5', color: '#fff', margin: 'auto' }}>
-                If you have any tech that you no longer use/have a need for reach out to us through email or instagram which can be found at the bottom of the page.
+                If you have any tech that you no longer use/have a need for reach out to us through email or <a href='https://www.instagram.com/projectechcore/' style={{textDecoration: 'underline'}}> instagram </a> which can be found at the bottom of the page.
               </p>
               <p className='mb-5' style={{ maxWidth: '800px', fontSize: '28px', fontFamily: 'Arial', lineHeight: '1.5', color: '#fff', margin: 'auto', fontWeight: 'bold'}}>
                 All monetary donations made will be used towards purchasing laptops, and these laptops will be donated to schools.

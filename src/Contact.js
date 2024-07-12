@@ -78,11 +78,11 @@ function ContactPage() {
   return (
     <div className="team-page" style={{ minHeight: '100vh', backgroundColor: '#f0f0f0', padding: '40px 0' }}>
       <div className="container" style={{ maxWidth: '90%', margin: '0 auto', padding: '0 35px' }}>
-        <h1 className="text-center display-4 mb-5">Meet Our Team</h1>
-        <div className="team-members mb-5" style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fill, minmax(280px, 1fr))', gap: '20px' }}>
+        <h1 className="text-center display-4 mb-3">Meet Our Team</h1>
+        <div className="team-members my-5 mt-5 py-4" style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fill, minmax(280px, 1fr))', gap: '40px' }}>
           {teamMembers.map((member, index) => (
             <div key={index} className="team-member" style={{ backgroundColor: '#fff', borderRadius: '8px', padding: '10px', textAlign: 'center', boxShadow: '0 4px 8px rgba(0, 0, 0, 0.1)' }}>
-              <div className="member-image mb-4 mt-2" style={{ width: '200px', height: '200px', margin: '0 auto', borderRadius: '50%', overflow: 'hidden', border: '3px solid #000000' }}>
+              <div className="member-image mb-4 mt-4" style={{ width: '200px', height: '200px', margin: '0 auto', borderRadius: '50%', overflow: 'hidden', border: '3px solid #000000' }}>
                 <img src={member.imageUrl} alt={member.firstName} style={{ width: '100%', height: '100%', objectFit: 'cover' }} />
               </div>
               <h3 style={{fontSize: '30px' }}>{member.firstName}</h3>
