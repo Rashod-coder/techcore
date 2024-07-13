@@ -7,9 +7,12 @@ function TextExample() {
    
           <div className="card mx-auto" style={{ backgroundColor: '#4D6D97' }}>
             <div className="card-body">
-            <h3 className="card-title" style={{fontFamily: 'Roboto Flex', color: 'black', fontSize: '30px'}}>We currently teach python, during the fall term we plan on expanding</h3>
-            <h5>If you're a incoming 6th grader or incoming 9th grader feel free to sign up for this class and learn something new!</h5>
-            <h5>This is a great place to start learning computer science and possibly build up on your skills and pursue cs in the future! </h5>
+            <h3 className="card-title" style={{fontFamily: 'Roboto Flex', color: 'black', fontSize: '30px'}}>Courses - Python</h3>
+            <h3 style={{fontSize: '20px', color: 'white', fontFamily: 'oxygen'}}>Techcore is currently teaching Introduction to Python to grades 5-9, incoming 5th graders & incoming 9th graders are allowed to register for this course. </h3>
+            <br></br>
+            <h3 style={{fontSize: '20px', color: 'white', fontFamily: 'oxygen'}}>This is a great course for developing a new hobby, learning something new, & this skill can possibly allow you to gain a feel of Computer Science. Maybe it may be something you end up pursuing in the future give it a try!.</h3>
+           <br></br>
+            <h3 style={{fontSize: '20px', color: 'white', fontFamily: 'oxygen'}}> Try it out today, sign up on google form attached on this page.</h3>
       </div>
     </div>
   );

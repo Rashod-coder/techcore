@@ -6,6 +6,7 @@ import ram from './Assets/Screenshot 2024-07-12 at 2.56.56 PM.png'
 import Shikhar from './Assets/Screenshot 2024-07-12 at 3.13.34 PM.png'
 import Sonia from './Assets/Screenshot 2024-07-12 at 3.22.20 PM.png'
 import './Contact.css'
+import yashas from './Assets/Screenshot 2024-07-12 at 4.38.47 PM.png'
 
 const teamMembers = [
   {
@@ -22,7 +23,7 @@ const teamMembers = [
     role: 'Vice President',
     imageUrl: karan, // Path to your volunteer image
     linkedin: 'https://www.linkedin.com/in/karanmody/',
-    instagram: 'https://www.instagram.com/janesmith'
+    instagram: ''
   },
   {
     firstName: 'Ramgopal',
@@ -35,7 +36,7 @@ const teamMembers = [
   {
     firstName: 'Akshaj',
     lastName: 'Sinha',
-    role: 'Logistics Officer',
+    role: 'Logistics & Content Creator',
     imageUrl: volunteer, // Path to your volunteer image
     linkedin: 'https://www.linkedin.com/janesmith',
     instagram: 'https://www.instagram.com/sinha_akshaj?igsh=MzRlODBiNWFlZA=='
@@ -43,7 +44,7 @@ const teamMembers = [
   {
     firstName: 'Shikhar',
     lastName: 'Sisodia',
-    role: 'Finance Officer',
+    role: 'Finance Team',
     imageUrl: Shikhar, // Path to your volunteer image
     linkedin: 'https://www.linkedin.com/in/shikhar-sisodia-728a35272?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app',
     instagram: 'https://www.instagram.com/shikhar.sisodia?igsh=MzRlODBiNWFlZA=='
@@ -51,15 +52,15 @@ const teamMembers = [
   {
     firstName: 'Yashas',
     lastName: 'Revanakara',
-    role: 'Finance Officer',
-    imageUrl: volunteer, // Path to your volunteer image
+    role: 'Finance Team',
+    imageUrl: yashas, // Path to your volunteer image
     linkedin: 'https://www.linkedin.com/in/yashas-revanakara-bba163252/',
     instagram: 'https://www.instagram.com/yashas.revanakara?igsh=MzRlODBiNWFlZA=='
   },
   {
     firstName: 'Sonia',
     lastName: 'Puri',
-    role: 'Outreach Officer',
+    role: 'Outreach Team',
     imageUrl: Sonia, // Path to your volunteer image
     linkedin: 'https://www.linkedin.com/janesmith',
     instagram: 'https://www.instagram.com/sonia.p_48?igsh=MzRlODBiNWFlZA=='
@@ -67,7 +68,7 @@ const teamMembers = [
   {
     firstName: 'Nihal',
     lastName: 'Paliwal',
-    role: 'Logistics Officer',
+    role: 'Logistics Team',
     imageUrl: volunteer, // Path to your volunteer image
     linkedin: 'https://www.linkedin.com/janesmith',
     instagram: 'https://www.instagram.com/nihal_paliwal?igsh=MzRlODBiNWFlZA=='
@@ -78,7 +79,7 @@ function ContactPage() {
   return (
     <div className="team-page" style={{ minHeight: '100vh', backgroundColor: '#f0f0f0', padding: '40px 0' }}>
       <div className="container" style={{ maxWidth: '90%', margin: '0 auto', padding: '0 35px' }}>
-        <h1 className="text-center display-4 mb-3">Meet Our Team</h1>
+        <h1 className="text-center display-4 mb-3">Meet Our Officers</h1>
         <div className="team-members my-5 mt-5 py-4" style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fill, minmax(280px, 1fr))', gap: '40px' }}>
           {teamMembers.map((member, index) => (
             <div key={index} className="team-member" style={{ backgroundColor: '#fff', borderRadius: '8px', padding: '10px', textAlign: 'center', boxShadow: '0 4px 8px rgba(0, 0, 0, 0.1)' }}>
