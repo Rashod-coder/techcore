@@ -7,13 +7,14 @@ import Shikhar from './Assets/Screenshot 2024-07-12 at 3.13.34 PM.png'
 import Sonia from './Assets/Screenshot 2024-07-12 at 3.22.20 PM.png'
 import './Contact.css'
 import yashas from './Assets/Screenshot 2024-07-12 at 4.38.47 PM.png'
+import Rishit from './Assets/Screenshot 2024-07-12 at 6.37.35 PM.png'
 
 const teamMembers = [
   {
     firstName: 'Rishit',
     lastName: 'Gupta',
     role: 'President & Web Dev',
-    imageUrl: volunteer, // Path to your volunteer image
+    imageUrl: Rishit, // Path to your volunteer image
     linkedin: 'https://www.linkedin.com/in/rishitgupta2007',
     instagram: 'https://www.instagram.com/ritzx.gupta_?igsh=OGQ5ZDc2ODk2ZA%3D%3D&utm_source=qr'
   },
