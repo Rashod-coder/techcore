@@ -58,6 +58,7 @@ function Footer() {
             <a href="https://www.tiktok.com/@projectechcore?_t=8nt9Ii2sLK3&_r=1" className="text-white me-4">
               <IoLogoTiktok size={32} />
             </a>
+            
           </div>
         </section>
         <section className='text-center '>

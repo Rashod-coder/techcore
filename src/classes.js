@@ -1,9 +1,6 @@
 // AboutPage.js
 import React from 'react';
-import background from './Assets/carlos-torres-MHNjEBeLTgw-unsplash.jpg'; 
 import Offers from './Components/Offers';
-import Sign from './Components/Sign';
-import './About.css';
 
 function AboutPage() {
   return (

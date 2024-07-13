@@ -5,7 +5,6 @@ import volunteer from './Assets/Black And White Aesthetic Minimalist Modern Simp
 import ram from './Assets/Screenshot 2024-07-12 at 2.56.56 PM.png'
 import Shikhar from './Assets/Screenshot 2024-07-12 at 3.13.34 PM.png'
 import Sonia from './Assets/Screenshot 2024-07-12 at 3.22.20 PM.png'
-import './Contact.css'
 import yashas from './Assets/Screenshot 2024-07-12 at 4.38.47 PM.png'
 import Rishit from './Assets/Screenshot 2024-07-12 at 6.37.35 PM.png'
 
@@ -14,7 +13,7 @@ const teamMembers = [
     firstName: 'Rishit',
     lastName: 'Gupta',
     role: 'President & Web Dev',
-    imageUrl: Rishit, // Path to your volunteer image
+    imageUrl: Rishit,
     linkedin: 'https://www.linkedin.com/in/rishitgupta2007',
     instagram: 'https://www.instagram.com/ritzx.gupta_?igsh=OGQ5ZDc2ODk2ZA%3D%3D&utm_source=qr'
   },
@@ -22,7 +21,7 @@ const teamMembers = [
     firstName: 'Karan',
     lastName: 'Mody',
     role: 'Vice President',
-    imageUrl: karan, // Path to your volunteer image
+    imageUrl: karan, 
     linkedin: 'https://www.linkedin.com/in/karanmody/',
     instagram: ''
   },
@@ -30,7 +29,7 @@ const teamMembers = [
     firstName: 'Ramgopal',
     lastName: 'Pamalapati',
     role: 'Outreach & Content Creator',
-    imageUrl: ram, // Path to your volunteer image
+    imageUrl: ram,
     linkedin: 'https://www.linkedin.com/in/ramgopal-pamalapati-3b4387319',
     instagram: 'https://www.instagram.com/ramgopal_pamalapati?igsh=NGVhN2U2NjQ0Yg%3D%3D&utm_source=qr'
   },
@@ -38,7 +37,7 @@ const teamMembers = [
     firstName: 'Akshaj',
     lastName: 'Sinha',
     role: 'Logistics & Content Creator',
-    imageUrl: volunteer, // Path to your volunteer image
+    imageUrl: volunteer, 
     linkedin: 'https://www.linkedin.com/janesmith',
     instagram: 'https://www.instagram.com/sinha_akshaj?igsh=MzRlODBiNWFlZA=='
   },
@@ -46,7 +45,7 @@ const teamMembers = [
     firstName: 'Shikhar',
     lastName: 'Sisodia',
     role: 'Finance Team',
-    imageUrl: Shikhar, // Path to your volunteer image
+    imageUrl: Shikhar, 
     linkedin: 'https://www.linkedin.com/in/shikhar-sisodia-728a35272?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app',
     instagram: 'https://www.instagram.com/shikhar.sisodia?igsh=MzRlODBiNWFlZA=='
   },
@@ -54,7 +53,7 @@ const teamMembers = [
     firstName: 'Yashas',
     lastName: 'Revanakara',
     role: 'Finance Team',
-    imageUrl: yashas, // Path to your volunteer image
+    imageUrl: yashas, 
     linkedin: 'https://www.linkedin.com/in/yashas-revanakara-bba163252/',
     instagram: 'https://www.instagram.com/yashas.revanakara?igsh=MzRlODBiNWFlZA=='
   },
@@ -62,7 +61,7 @@ const teamMembers = [
     firstName: 'Sonia',
     lastName: 'Puri',
     role: 'Outreach Team',
-    imageUrl: Sonia, // Path to your volunteer image
+    imageUrl: Sonia,
     linkedin: 'https://www.linkedin.com/janesmith',
     instagram: 'https://www.instagram.com/sonia.p_48?igsh=MzRlODBiNWFlZA=='
   },
@@ -70,7 +69,7 @@ const teamMembers = [
     firstName: 'Nihal',
     lastName: 'Paliwal',
     role: 'Logistics Team',
-    imageUrl: volunteer, // Path to your volunteer image
+    imageUrl: volunteer,
     linkedin: 'https://www.linkedin.com/janesmith',
     instagram: 'https://www.instagram.com/nihal_paliwal?igsh=MzRlODBiNWFlZA=='
   },
