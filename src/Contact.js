@@ -6,7 +6,7 @@ import ram from './Assets/Screenshot 2024-07-12 at 2.56.56 PM.png'
 import Shikhar from './Assets/Screenshot 2024-07-12 at 3.13.34 PM.png'
 import Sonia from './Assets/Screenshot 2024-07-12 at 3.22.20 PM.png'
 import yashas from './Assets/Screenshot 2024-07-12 at 4.38.47 PM.png'
-import Rishit from './Assets/Screenshot 2024-07-12 at 6.37.35 PM.png'
+import Rishit from './Assets/Screenshot 2024-07-12 at 9.32.49 PM.png'
 
 const teamMembers = [
   {
