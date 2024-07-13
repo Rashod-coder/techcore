@@ -11,16 +11,16 @@ function Footer() {
             <div className="container-fluid">
               <div className='row'>
                 <div className='col-sm-3'>
-                <p className=' mt-5'><a href='/'>Home</a></p>
+                <p className=' mt-5' style={{color: 'white'}}><a href='/'>Home</a></p>
                 </div>
                 <div className='col-sm-3'>
-                <p className=' mt-5'><a href='/team'>Team</a></p>
+                <p className=' mt-5' style={{color: 'white'}}><a href='/team'>Team</a></p>
                 </div>
                 <div className='col-sm-3'>
-                <p className=' mt-5'><a href='https://hcb.hackclub.com/donations/start/techcore'>Donate</a></p>
+                <p className=' mt-5' style={{color: 'white'}}><a href='https://hcb.hackclub.com/donations/start/techcore'>Donate</a></p>
                 </div>
                 <div className='col-sm-3'>
-                <p className=' mt-5'><a href='/classes'>Summer Classes</a></p>
+                <p className=' mt-5' style={{color: 'white'}}><a href='/classes'>Summer Classes</a></p>
                 </div>
 
               </div>
@@ -62,11 +62,11 @@ function Footer() {
         </section>
         <section className='text-center '>
         <div className="d-flex justify-content-center">
-          <p style={{fontFamily: 'oxygen'}}>For any partnerships/sponsorships inquiries email us at  <a href='mailto: outreach@tech-core.xyz'>  : outreach@tech-core.xyz </a></p>
+          <p style={{fontFamily: 'oxygen'}}>For any partnerships/sponsorships inquiries email us at  <a href='mailto: outreach@tech-core.xyz' style={{color: 'white'}}>  : outreach@tech-core.xyz </a></p>
           </div>
         </section>
         <div className="d-flex justify-content-center">
-          <p style={{fontFamily: 'oxygen'}}>For all other inquiries email us at  <a href='mailto: general@tech-core.xyz'>  : general@tech-core.xyz </a></p>
+          <p style={{fontFamily: 'oxygen'}}>For all other inquiries email us at  <a href='mailto: general@tech-core.xyz' style={{color: 'white'}}>  : general@tech-core.xyz </a></p>
           </div>
         {/* End Section: Social */}
       </div>
