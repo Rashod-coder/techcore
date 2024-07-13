@@ -37,11 +37,11 @@ function HomePage() {
         </Container>
       </div>
 
-      <div id='about' style={{ minHeight: '65vh', maxHeight: '65vh', overflowY: 'auto', backgroundColor: '#f8f9fa', padding: '30px 15px', textAlign: 'center' }}>
+      <div id='about' style={{ minHeight: '90vh', backgroundColor: '#f8f9fa', padding: '30px 15px', textAlign: 'center' }}>
     <Container fluid>
     <Row className='justify-content-center align-items-center'>
       <Col md={8}>
-        <h1 className='mt-3 mb-4' style={{ fontSize: '60px', fontFamily: 'Roboto Flex', color: '#343a40', fontWeight: 'bold' }}>What is Techcore?</h1>
+        <h1 className='mt-3 mb-4 display-2'>What is Techcore?</h1>
         <p className='mb-5' style={{ maxWidth: '850px', fontSize: '28px', fontFamily: 'Arial', lineHeight: '1.5', color: '#495057', margin: 'auto', marginTop: '60px' }}>
           Techcore is a non-profit based in the Bay Area, CA, dedicated to bridging the digital gap in education by donating laptops to schools.
         </p>
@@ -58,12 +58,11 @@ function HomePage() {
         <Container>
           <Row>
             <Col>
-              <h1 className='mt-3 mb-4' style={{ fontSize: '60px', fontFamily: 'Roboto Flex', color: '#fff', fontWeight: 'bold' }}>How can you get involved?</h1>
+              <h1 className='mt-3 mb-4 display-2' >How can you get involved?</h1>
               <p className='mb-5' style={{ maxWidth: '800px', fontSize: '28px', fontFamily: 'Arial', lineHeight: '1.5', color: '#fff', margin: 'auto' }}>
-                We are currently accepting monetary donations through, All monetary donations are tax deductible. We greatly appreciate any support given to us!
-              </p>
+              Techcore is currently accepting monetary donations, all monetary donations made are tax deductible (you will be emailed a receipt of your donation) click on <a href='https://hcb.hackclub.com/donations/start/techcore'>this</a> link to donate.              </p>
               <p className='mb-5' style={{ maxWidth: '800px', fontSize: '28px', fontFamily: 'Arial', lineHeight: '1.5', color: '#fff', margin: 'auto' }}>
-                If you have any tech that you no longer use/have a need for reach out to us through email or <a href='https://www.instagram.com/projectechcore/' style={{textDecoration: 'underline'}}> instagram </a> which can be found at the bottom of the page.
+                We are also collecting any used tech you no longer need, and are willing to donate. Contact us through email or <a href='https://www.instagram.com/projectechcore/' style={{textDecoration: 'underline'}}> instagram</a> which can be found at the bottom of the page.
               </p>
               <p className='mb-5' style={{ maxWidth: '800px', fontSize: '28px', fontFamily: 'Arial', lineHeight: '1.5', color: '#fff', margin: 'auto', fontWeight: 'bold'}}>
                 All monetary donations made will be used towards purchasing laptops, and these laptops will be donated to schools.

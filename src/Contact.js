@@ -39,7 +39,7 @@ const teamMembers = [
     lastName: 'Sinha',
     role: 'Logistics & Content Creator',
     imageUrl: Akshaj, 
-    linkedin: 'https://www.linkedin.com/janesmith',
+    linkedin: 'https://www.linkedin.com/in/akshaj-sinha-0a34462a5/',
     instagram: 'https://www.instagram.com/sinha_akshaj?igsh=MzRlODBiNWFlZA=='
   },
   {
