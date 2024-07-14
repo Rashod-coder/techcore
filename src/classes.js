@@ -25,7 +25,7 @@ function AboutPage() {
             </div>
             <h2 className='mt-3 display-2' style={{fontSize: '30px'}}>Our instructor is well qualified to teach this class earning a 5 (Highest Score possible) on APCSA exam</h2>
             <h2 className='mt-3 display-2' style={{fontSize: '30px'}}>Our classes will consist of a 45-50 minutes of a lesson and then the remainder 25-30 minutes, we will be giving students practice problems on the topic they learnt. </h2>
-            <h2 className='mt-3 display-2' style={{fontSize: '30px'}}>We will also be giving parents a update after each session what we covered in class and how their child preformed.</h2>
+            <h2 className='mt-3 display-2' style={{fontSize: '30px'}}>We will also be giving a update after every session on what we covered.</h2>
 
             
             </div>

@@ -8,22 +8,29 @@ function Footer() {
   return (
     <footer className="text-center text-white" style={{ backgroundColor: '#000000', position: 'relative',  width: '100%', marginTop: '-80px' }}>
       
-            <div className="container-fluid">
-              <div className='row'>
-                <div className='col-sm-3'>
-                <p className=' mt-5' style={{color: 'white'}}><a href='/'>Home</a></p>
-                </div>
-                <div className='col-sm-3'>
-                <p className=' mt-5' style={{color: 'white'}}><a href='/team'>Team</a></p>
-                </div>
-                <div className='col-sm-3'>
-                <p className=' mt-5' style={{color: 'white'}}><a href='https://hcb.hackclub.com/donations/start/techcore'>Donate</a></p>
-                </div>
-                <div className='col-sm-3'>
-                <p className=' mt-5' style={{color: 'white'}}><a href='/classes'>Summer Classes</a></p>
-                </div>
-
-              </div>
+      <div className="container-fluid">
+  <div className='row'>
+    <div className='col-sm-3'>
+      <p className='mt-5' style={{color: 'white'}}>
+        <a href='/' style={{textDecoration: 'none', color: 'white'}}>Home</a>
+      </p>
+    </div>
+    <div className='col-sm-3'>
+      <p className='mt-5' style={{color: 'white'}}>
+        <a href='/team' style={{textDecoration: 'none', color: 'white'}}>Team</a>
+      </p>
+    </div>
+    <div className='col-sm-3'>
+      <p className='mt-5' style={{color: 'white'}}>
+        <a href='https://hcb.hackclub.com/donations/start/techcore' style={{textDecoration: 'none', color: 'white'}}>Donate</a>
+      </p>
+    </div>
+    <div className='col-sm-3'>
+      <p className='mt-5' style={{color: 'white'}}>
+        <a href='/classes' style={{textDecoration: 'none', color: 'white'}}>Summer Classes</a>
+      </p>
+    </div>
+  </div>
               
         {/* Section: Links */}
         
