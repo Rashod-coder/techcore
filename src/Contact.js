@@ -13,7 +13,7 @@ const teamMembers = [
   {
     firstName: 'Rishit',
     lastName: 'Gupta',
-    role: 'President & Web Dev',
+    role: 'Founder President & Web Dev',
     imageUrl: Rishit,
     linkedin: 'https://www.linkedin.com/in/rishitgupta2007',
     instagram: 'https://www.instagram.com/ritzx.gupta_?igsh=OGQ5ZDc2ODk2ZA%3D%3D&utm_source=qr'
