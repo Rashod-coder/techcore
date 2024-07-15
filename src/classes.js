@@ -7,7 +7,7 @@ function AboutPage() {
     <div
       className="homepage"
       style={{
-        backgroundColor: 'white',
+        backgroundColor: '#F7FCFE',
         width: '100%',
         minHeight: '100vh',
         padding: '50px 0',

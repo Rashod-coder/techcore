@@ -13,7 +13,6 @@ import { Analytics } from '@vercel/analytics/react';
     <Router>
       <div className="App">
         <div className="content">
-      
         <Navbar/>
           <Routes>
             <Route path="/" element={<Home />} />

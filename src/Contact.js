@@ -13,7 +13,7 @@ const teamMembers = [
   {
     firstName: 'Rishit',
     lastName: 'Gupta',
-    role: 'Founder President & Web Dev',
+    role: 'Founder, President & Web Dev',
     imageUrl: Rishit,
     linkedin: 'https://www.linkedin.com/in/rishitgupta2007',
     instagram: 'https://www.instagram.com/ritzx.gupta_?igsh=OGQ5ZDc2ODk2ZA%3D%3D&utm_source=qr'
@@ -63,7 +63,7 @@ const teamMembers = [
     lastName: 'Puri',
     role: 'Outreach Team',
     imageUrl: Sonia,
-    linkedin: 'https://www.linkedin.com/janesmith',
+    linkedin: '',
     instagram: 'https://www.instagram.com/sonia.p_48?igsh=MzRlODBiNWFlZA=='
   },
   {
@@ -71,7 +71,7 @@ const teamMembers = [
     lastName: 'Paliwal',
     role: 'Logistics Team',
     imageUrl: volunteer,
-    linkedin: 'https://www.linkedin.com/janesmith',
+    linkedin: '',
     instagram: 'https://www.instagram.com/nihal_paliwal?igsh=MzRlODBiNWFlZA=='
   },
 ];

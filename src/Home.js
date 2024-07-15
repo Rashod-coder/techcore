@@ -5,13 +5,9 @@ import 'aos/dist/aos.css';
 import './output.css';
 import python from './Assets/python-programming-language.webp';
 import volunteer from './Assets/istockphoto-1269224972-612x612.jpg';
-
-import background1 from './Assets/carlos-torres-MHNjEBeLTgw-unsplash.jpg';
 import logo from './Assets/Tech.png';
 import './home.css'
 import design from './Assets/Screenshot 2024-07-14 at 9.47.14 AM.png'
-
-import back2 from './Assets/engin-akyurt-BvWPWDv4Ob0-unsplash.jpg';
 
 function HomePage() {
   useEffect(() => {
