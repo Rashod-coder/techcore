@@ -28,7 +28,7 @@ const Navbar = () => {
                 <a className="nav-link text-white" href="https://hcb.hackclub.com/donations/start/techcore" style={{ fontSize: '18px', fontFamily: 'Oxygen', margin: '10px', textShadow: '1px 1px 2px rgba(0, 0, 0, 0.5)' }}>Donate</a>
               </li>
               <li className="nav-item">
-                <a className="nav-link text-white" href="/classes" style={{ fontSize: '18px', fontFamily: 'Oxygen', margin: '10px', textShadow: '1px 1px 2px rgba(0, 0, 0, 0.5)' }}>Summer Classes</a>
+                <a className="nav-link text-white" href="/classes" style={{ fontSize: '18px', fontFamily: 'Oxygen', margin: '10px', textShadow: '1px 1px 2px rgba(0, 0, 0, 0.5)' }}>Fall Classes</a>
               </li>
             </ul>
           </div>

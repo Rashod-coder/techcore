@@ -81,6 +81,7 @@ function ContactPage() {
     <div className="team-page" style={{ minHeight: '100vh', backgroundColor: '#f0f0f0', padding: '40px 0' }}>
       <div className="container" style={{ maxWidth: '90%', margin: '0 auto', padding: '0 35px' }}>
         <h1 className="text-center display-4 mb-3">Meet Our Officers</h1>
+        <h1 className="text-center display-6 mb-3">2024-2025</h1>
         <div className="team-members my-5 mt-5 py-4" style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fill, minmax(280px, 1fr))', gap: '40px' }}>
           {teamMembers.map((member, index) => (
             <div key={index} className="team-member" style={{ backgroundColor: '#fff', borderRadius: '8px', padding: '10px', textAlign: 'center', boxShadow: '0 4px 8px rgba(0, 0, 0, 0.1)' }}>

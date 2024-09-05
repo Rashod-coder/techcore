@@ -89,8 +89,8 @@ function HomePage() {
           <Col lg="6" md="12">
             <div>
               <br />
-              <p className='mt-5 mb-4 py-5' style={{ fontSize: '40px', fontFamily: 'Roboto Flex', color: '#343a40' }}>Summer Classes</p>
-              <p className='h2' style={{ fontFamily: 'oxygen', lineHeight: '1.5' }}>Techcore is all about expanding learning opportunities for students, which is why we are introducing a 4-week Python interactive course starting 7/23</p>
+              <p className='mt-5 mb-4 py-5' style={{ fontSize: '40px', fontFamily: 'Roboto Flex', color: '#343a40' }}>Fall Classes</p>
+              <p className='h2' style={{ fontFamily: 'oxygen', lineHeight: '1.5' }}>Techcore is all about expanding learning opportunities for students, which is why we are introducing a 8-week interactive courses starting 9/16</p>
               <br />
               <p className='h2' style={{ fontFamily: 'oxygen', lineHeight: '1.5', }}>To learn more or register your child visit <a href='/classes' style={{ textDecoration: 'underline' }}>this</a> page</p>
             </div>
@@ -113,6 +113,35 @@ function HomePage() {
           </Col>
         </Row>
         </Container>
+      </div>
+      <div id='about' style={{ minHeight: '50vh', backgroundColor: '#f8f9fa', padding: '15px', textAlign: 'center' }}>
+        <h1 className='display-3'>Partners</h1>
+        <div className="row justify-content-center mt-4">
+        <div className="col-md-4 col-sm-6 mb-4">
+          <img
+            src="path/to/your/image1.jpg"
+            alt="Partner 1"
+            className="img-fluid rounded-circle"
+            style={{ width: '150px', height: '150px', objectFit: 'cover' }}
+          />
+        </div>
+        <div className="col-md-4 col-sm-6 mb-4">
+          <img
+            src="path/to/your/image2.jpg"
+            alt="Partner 2"
+            className="img-fluid rounded-circle"
+            style={{ width: '150px', height: '150px', objectFit: 'cover' }}
+          />
+        </div>
+        <div className="col-md-4 col-sm-6 mb-4">
+          <img
+            src="path/to/your/image3.jpg"
+            alt="Partner 3"
+            className="img-fluid rounded-circle"
+            style={{ width: '150px', height: '150px', objectFit: 'cover' }}
+          />
+        </div>
+      </div>
       </div>
       
       <div id='footer'></div>
