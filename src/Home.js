@@ -8,6 +8,8 @@ import volunteer from './Assets/istockphoto-1269224972-612x612.jpg';
 import logo from './Assets/Tech.png';
 import './home.css'
 import design from './Assets/Screenshot 2024-07-14 at 9.47.14 AM.png'
+import fyc from './Assets/FYC.jpg'
+
 
 function HomePage() {
   useEffect(() => {
@@ -90,7 +92,7 @@ function HomePage() {
             <div>
               <br />
               <p className='mt-5 mb-4 py-5' style={{ fontSize: '40px', fontFamily: 'Roboto Flex', color: '#343a40' }}>Fall Classes</p>
-              <p className='h2' style={{ fontFamily: 'oxygen', lineHeight: '1.5' }}>Techcore is all about expanding learning opportunities for students, which is why we are introducing a 8-week interactive courses starting 9/16</p>
+              <p className='h2' style={{ fontFamily: 'oxygen', lineHeight: '1.5' }}>Techcore is all about expanding learning opportunities for students, which is why we are introducing a 8-week interactive courses starting 9/23</p>
               <br />
               <p className='h2' style={{ fontFamily: 'oxygen', lineHeight: '1.5', }}>To learn more or register your child visit <a href='/classes' style={{ textDecoration: 'underline' }}>this</a> page</p>
             </div>
@@ -115,34 +117,18 @@ function HomePage() {
         </Container>
       </div>
       <div id='about' style={{ minHeight: '50vh', backgroundColor: '#f8f9fa', padding: '15px', textAlign: 'center' }}>
-        <h1 className='display-3'>Partners</h1>
-        <div className="row justify-content-center mt-4">
-        <div className="col-md-4 col-sm-6 mb-4">
-          <img
-            src="path/to/your/image1.jpg"
-            alt="Partner 1"
-            className="img-fluid rounded-circle"
-            style={{ width: '150px', height: '150px', objectFit: 'cover' }}
-          />
-        </div>
-        <div className="col-md-4 col-sm-6 mb-4">
-          <img
-            src="path/to/your/image2.jpg"
-            alt="Partner 2"
-            className="img-fluid rounded-circle"
-            style={{ width: '150px', height: '150px', objectFit: 'cover' }}
-          />
-        </div>
-        <div className="col-md-4 col-sm-6 mb-4">
-          <img
-            src="path/to/your/image3.jpg"
-            alt="Partner 3"
-            className="img-fluid rounded-circle"
-            style={{ width: '150px', height: '150px', objectFit: 'cover' }}
-          />
-        </div>
-      </div>
-      </div>
+  <h1 className='display-3'>Partners</h1>
+  <div className="row justify-content-center mt-4">
+    <div className="col-md-4 col-sm-6 mb-4 d-flex justify-content-center align-items-center">
+    <img
+  src={fyc}
+  alt="Partner FYC"
+  className="img-fluid rounded-circle"
+  style={{ width: '150px', height: '150px', objectFit: 'cover' }}
+/>
+    </div>
+  </div>
+</div>
       
       <div id='footer'></div>
     </div>

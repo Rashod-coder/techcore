@@ -4,6 +4,10 @@ import Offers from './Components/Offers';
 
 function AboutPage() {
   return (
+    <div>
+      <div id='pastimpact'>
+      
+      </div>
     <div
       className="homepage"
       style={{
@@ -14,8 +18,8 @@ function AboutPage() {
         
       }}
     >
-      <h1 className="text-center display-1" style={{ fontSize: '50px', color: '#333' }}>Fall classes</h1>
-      <h3 className="text-center" style={{ color: '#555', fontSize: '20px', fontWeight: 'bold'}}>These classes are offered free of cost and anyone in Grades 5-9 can sign up. Starting from September 16th.</h3>
+      <h1 className="text-center display-1 mb-3" style={{ fontSize: '50px', color: '#333', fontWeight: 'bold' }}> Techcore and FYC Fall classes</h1>
+      <h3 className="text-center" style={{ color: '#555', fontSize: '20px', fontWeight: 'bold'}}>These classes are offered free of cost and anyone in Grades 5-12 can sign up. Starting from September 23rd.</h3>
       
       <div className="container" style={{ marginTop: '50px' }}>
         <div className="row">
@@ -26,7 +30,7 @@ function AboutPage() {
             <h2 className='mt-3 display-2' style={{fontSize: '30px'}}>Our instructor is well qualified to teach this class earning a 5 (Highest Score possible) on APCSA exam</h2>
             <h2 className='mt-3 display-2' style={{fontSize: '30px'}}>Our classes will consist of a 50 minutes of a lesson and then the remainder 30-35 minutes, we will be giving students practice problems on the topic they learnt, to help reinforce. </h2>
             <h2 className='mt-3 display-2' style={{fontSize: '30px'}}>We will also be giving a update after every session on what we covered.</h2>
-
+            <h2 className='mt-3 display-2' style={{fontSize: '30px'}}>Our final two classes will be working on having the students create a project using all the skills they learnt!</h2>
             
             </div>
           <div className="col-lg-6 col-md-12 col-sm-6">
@@ -49,6 +53,8 @@ function AboutPage() {
         </div>
       </div>
     </div>
+    </div>
+
   );
 }
 

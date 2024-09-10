@@ -58,14 +58,7 @@ const teamMembers = [
     linkedin: 'https://www.linkedin.com/in/yashas-revanakara-bba163252/',
     instagram: 'https://www.instagram.com/yashas.revanakara?igsh=MzRlODBiNWFlZA=='
   },
-  {
-    firstName: 'Sonia',
-    lastName: 'Puri',
-    role: 'Outreach Team',
-    imageUrl: Sonia,
-    linkedin: '',
-    instagram: 'https://www.instagram.com/sonia.p_48?igsh=MzRlODBiNWFlZA=='
-  },
+  
   {
     firstName: 'Nihal',
     lastName: 'Paliwal',
